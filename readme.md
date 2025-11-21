@@ -44,6 +44,12 @@ This project explores customer churn behavior in the insurance sector using Pyth
 - Highlighted key behavioral and financial features driving churn  
 - Enabled strategic segmentation and retention planning for insurers
 
+## 💡 Business Decision from Churn Analysis
+ - Target High-Risk Segments with Retention Campaigns
+ - Optimize Policy Offerings Based on Churn Patterns
+ - Streamline Claim Approval Workflows
+ - Enhance Customer Satisfaction Monitoring
+ 
 ## 🚀 What I Learned  
 - End-to-end pipeline design for classification problems  
 - Importance of feature engineering and scaling  
