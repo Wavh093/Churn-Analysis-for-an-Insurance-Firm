@@ -1,0 +1,501 @@
+Customer_ID,Age,Gender,Marital_Status,Policy_Type,Policy_Tenure_Years,Premium_Amount,Claim_Count,Total_Claim_Amount,Customer_Segment,Income,Education_Level,Dependents,Customer_Satisfaction_Score,Payment_Method,Contact_Frequency,Last_Interaction_Days,Discount_Received (%),Loyalty_Score,Region,Policy_Renewed_Last_Year,Churned
+1,56,Male,Widowed,Home,19,9440.6,0,0.0,High Value,154783.53,PhD,3,7.785159500804919,EFT,Monthly,308,7.21,71.28682798964728,Eastern Cape,Yes,1
+2,39,Male,Single,Travel,11,12374.15,0,0.0,Low Value,36234.34,PhD,2,4.67226576701046,Cash,Yearly,363,12.68,45.91349532819402,KZN,Yes,1
+3,38,Female,Widowed,Home,8,11996.81,1,1049.17,Medium Value,75624.59,Master,2,4.541099092336087,Credit Card,Quarterly,359,6.17,53.29887793540281,Gauteng,Yes,1
+4,46,Male,Married,Health,17,22621.21,4,3592.87,Low Value,38265.28,PhD,4,4.3977926088214225,Debit Order,Monthly,337,12.02,56.06477780526053,Western Cape,No,1
+5,62,Female,Widowed,Health,8,10782.9,0,0.0,Low Value,32300.12,PhD,2,6.272610216690341,Credit Card,Monthly,288,2.28,50.47660388816442,Eastern Cape,Yes,0
+6,26,Female,Widowed,Health,7,15868.01,1,2168.68,Medium Value,94250.08,Bachelor,2,8.453032937150727,Cash,Yearly,34,1.89,58.862943824577215,Gauteng,No,1
+7,43,Male,Single,Life,13,31861.48,1,985.51,Low Value,26194.14,Master,0,5.183521553071005,Debit Order,Quarterly,221,0.0,44.46475672762521,Free State,Yes,1
+8,30,Male,Single,Travel,6,9859.42,0,0.0,High Value,157521.72,Bachelor,3,9.316373305864055,Cash,Yearly,27,8.76,59.01888677591214,Free State,No,1
+9,72,Female,Single,Health,6,13709.08,1,2086.56,Low Value,46914.33,High School,2,2.1692585158991715,Debit Order,Yearly,306,3.74,26.395191618926795,Eastern Cape,Yes,1
+10,41,Female,Divorced,Travel,8,10913.23,1,1642.62,Low Value,56300.91,PhD,4,7.009973761405265,Credit Card,Monthly,112,4.81,45.17353502567093,Eastern Cape,Yes,1
+11,18,Male,Single,Auto,18,16690.11,1,3167.14,Low Value,69618.57,Master,2,6.455666228331735,Debit Order,Quarterly,324,3.14,61.07807958817282,Gauteng,Yes,1
+12,50,Male,Divorced,Travel,8,21961.63,0,0.0,Low Value,65599.07,Bachelor,2,6.747178831270759,Cash,Monthly,345,0.35,41.02844462209041,KZN,Yes,1
+13,50,Male,Married,Auto,7,18102.74,0,0.0,Low Value,37585.94,PhD,1,6.62703443473934,Credit Card,Quarterly,345,1.31,40.19550849649826,Eastern Cape,Yes,1
+14,29,Female,Married,Health,4,16888.85,2,4142.89,Medium Value,89264.61,Master,2,7.43414159396022,Debit Order,Monthly,112,5.88,49.28472872960448,Gauteng,Yes,1
+15,35,Male,Married,Travel,1,20246.74,0,0.0,Low Value,59876.58,PhD,4,4.074946279596496,Credit Card,Monthly,134,1.66,25.601580518291406,Eastern Cape,Yes,1
+16,39,Female,Widowed,Auto,13,20524.64,2,9154.89,Medium Value,99505.18,High School,0,2.312952471865134,Cash,Yearly,316,13.35,59.53219802749734,Eastern Cape,No,1
+17,61,Male,Single,Life,13,13882.69,0,0.0,Medium Value,90710.01,Master,4,5.672797527572505,EFT,Yearly,115,5.15,47.29809422897392,KZN,No,1
+18,35,Female,Single,Health,9,7425.76,3,9802.6,High Value,150873.13,PhD,1,4.714059404338753,EFT,Yearly,272,11.35,100.0,Eastern Cape,Yes,1
+19,67,Male,Married,Health,12,9083.67,0,0.0,Low Value,47424.93,High School,2,2.69486925667997,Debit Order,Monthly,321,0.5,68.34321484189874,Western Cape,Yes,1
+20,39,Female,Divorced,Auto,16,11620.98,0,0.0,Low Value,40964.2,Master,4,2.8445104441413878,Credit Card,Yearly,59,6.65,20.936922896859404,Western Cape,Yes,1
+21,69,Female,Single,Auto,14,11172.45,0,0.0,Medium Value,86334.71,High School,2,3.676427070463224,Debit Order,Monthly,91,7.56,47.13676671508349,Western Cape,Yes,1
+22,26,Female,Divorced,Auto,11,19200.03,1,1203.97,Low Value,66481.81,Master,4,5.809963421921911,Cash,Yearly,271,11.4,43.402732329711796,Western Cape,Yes,1
+23,20,Female,Single,Auto,11,9082.13,0,0.0,Low Value,43434.56,High School,0,6.3981847637199785,Cash,Yearly,99,6.8,36.2114777291026,Free State,Yes,1
+24,22,Male,Divorced,Home,3,8761.08,0,0.0,Medium Value,97447.46,Master,4,5.020466122039174,EFT,Quarterly,3,6.7,62.222725970687236,Free State,No,1
+25,49,Female,Married,Travel,19,5513.12,1,2955.28,High Value,169208.11,Master,2,8.002853514052163,EFT,Quarterly,42,13.18,84.2148780160255,Western Cape,Yes,0
+26,43,Male,Single,Auto,9,11886.5,0,0.0,Low Value,45355.23,Master,4,3.6141808094786914,EFT,Yearly,74,6.09,48.71971201053586,Western Cape,No,1
+27,27,Male,Married,Home,4,18736.47,2,7987.72,Low Value,49155.55,Master,4,6.528956470651423,EFT,Yearly,278,1.67,33.881269708430565,Free State,No,1
+28,65,Male,Single,Auto,12,16308.12,1,548.77,High Value,145934.39,High School,3,5.773810634183244,Credit Card,Yearly,338,7.44,79.78579178442358,KZN,Yes,1
+29,69,Male,Widowed,Health,3,24068.33,5,7507.97,Low Value,46068.74,PhD,2,4.057923388763355,EFT,Monthly,164,5.7,46.68260351922076,Free State,No,1
+30,34,Male,Single,Home,6,7691.22,2,1751.51,Medium Value,49443.86,Master,1,8.140064561085344,Credit Card,Yearly,18,4.94,44.96205953043287,Eastern Cape,Yes,1
+31,37,Male,Widowed,Travel,7,16613.59,3,5357.11,High Value,137591.54,Bachelor,4,7.139305329037758,EFT,Yearly,202,12.95,77.47893816191704,Gauteng,Yes,1
+32,64,Male,Widowed,Travel,8,16425.88,0,0.0,High Value,136541.46,Master,0,10.0,EFT,Quarterly,11,7.37,76.47727499616039,Eastern Cape,Yes,1
+33,53,Female,Married,Life,7,20163.0,0,0.0,High Value,122848.03,Master,0,5.709355581605028,Credit Card,Monthly,219,5.2,70.30550751048877,Free State,Yes,0
+34,68,Female,Widowed,Health,4,12982.23,1,4697.28,High Value,167691.6,High School,0,6.06164869579059,Debit Order,Quarterly,266,4.86,100.0,Gauteng,No,0
+35,30,Male,Divorced,Auto,0,3000.0,0,0.0,High Value,136480.59,Bachelor,0,10.0,Credit Card,Quarterly,258,10.68,100.0,Western Cape,No,0
+36,34,Male,Divorced,Health,13,16562.29,0,0.0,Low Value,44997.6,Bachelor,1,4.484195670912913,EFT,Quarterly,347,0.0,35.97605407075731,Eastern Cape,No,1
+37,18,Female,Single,Auto,11,20132.9,1,629.52,Medium Value,82491.32,Master,4,7.299246157666165,Credit Card,Yearly,102,6.58,75.87636730274382,KZN,Yes,1
+38,51,Male,Single,Life,19,6206.3,1,4597.12,Low Value,68588.61,PhD,4,5.455204641860983,Debit Order,Yearly,137,4.96,51.9460814454449,Western Cape,Yes,1
+39,51,Male,Married,Life,5,4662.79,1,841.38,Low Value,38663.2,Bachelor,2,5.733196492193697,EFT,Yearly,359,2.18,28.71329949509697,Eastern Cape,No,1
+40,49,Male,Married,Health,17,23368.74,1,4198.06,Low Value,36462.1,Bachelor,0,4.846472181943336,Debit Order,Yearly,132,0.7,37.12700764130061,KZN,Yes,1
+41,62,Male,Widowed,Life,8,14791.87,1,1206.4,Low Value,26498.27,PhD,0,6.70270852920102,Cash,Yearly,112,3.14,42.67192638641597,Free State,Yes,0
+42,31,Male,Divorced,Home,13,15178.18,1,665.07,Low Value,48648.35,Bachelor,2,5.622500309087072,Credit Card,Quarterly,238,1.49,15.11362617418515,Western Cape,Yes,1
+43,45,Male,Divorced,Home,9,20948.0,0,0.0,Low Value,43350.04,Master,4,8.37428327014513,Credit Card,Yearly,66,7.64,35.52842095970552,Gauteng,Yes,1
+44,64,Male,Widowed,Travel,7,25864.21,1,2204.48,Low Value,43389.96,Bachelor,2,6.679494875795428,EFT,Yearly,314,5.08,41.910482178057336,Eastern Cape,Yes,1
+45,23,Female,Widowed,Home,5,11746.79,0,0.0,Low Value,32693.12,High School,0,5.097043255889654,EFT,Quarterly,39,2.51,42.609494937543545,Free State,No,1
+46,71,Male,Single,Home,16,19539.36,1,4193.88,Medium Value,53807.58,Bachelor,4,10.0,EFT,Monthly,299,2.27,69.57935474756466,KZN,No,1
+47,18,Female,Single,Home,13,18192.96,0,0.0,Medium Value,55077.2,High School,0,3.5040600203470196,EFT,Quarterly,260,0.0,75.0943921382166,KZN,Yes,1
+48,34,Male,Divorced,Home,8,12115.54,1,2353.28,Low Value,42545.94,Bachelor,3,5.178787838291299,Credit Card,Quarterly,34,5.55,45.29736434833998,KZN,Yes,1
+49,28,Female,Single,Life,8,18814.24,1,1560.61,Medium Value,89569.5,PhD,3,6.6404914789725105,Credit Card,Monthly,295,0.0,86.58566980466394,Western Cape,No,1
+50,50,Female,Married,Life,14,13008.13,1,2261.67,Medium Value,45664.08,PhD,2,7.864963834905012,Cash,Yearly,178,2.38,53.9944069024867,Eastern Cape,No,1
+51,69,Female,Single,Auto,6,19140.77,1,1420.45,Medium Value,95148.42,Master,4,4.30494653245409,EFT,Yearly,293,7.49,26.32795638439036,Western Cape,Yes,1
+52,32,Male,Single,Health,7,18379.04,0,0.0,Medium Value,93044.09,High School,2,7.711275717609902,Cash,Monthly,291,7.15,83.51391631318452,Western Cape,No,0
+53,57,Female,Married,Home,5,12965.28,0,0.0,High Value,128216.94,PhD,1,6.594307560659695,Debit Order,Quarterly,315,10.14,66.867124597822,Western Cape,No,1
+54,54,Female,Single,Travel,7,16023.05,2,1620.29,Low Value,30588.72,Master,3,4.009221514137506,EFT,Yearly,181,3.58,54.27824527042831,KZN,Yes,1
+55,32,Female,Single,Life,14,14209.96,1,2000.75,Low Value,33596.78,Bachelor,0,1.8885000482567431,EFT,Yearly,346,0.0,17.458524735540948,Free State,Yes,1
+56,41,Female,Married,Auto,6,13696.32,0,0.0,Low Value,29225.45,Master,1,6.811775222981006,Debit Order,Monthly,155,5.24,17.729476427243917,Gauteng,No,1
+57,37,Female,Widowed,Health,7,27866.8,0,0.0,Low Value,40888.28,PhD,2,4.103945720399539,Credit Card,Monthly,304,0.0,39.50870094676002,Free State,Yes,1
+58,31,Male,Widowed,Home,18,12282.88,1,2483.43,Medium Value,62337.07,Bachelor,0,5.407403596277699,Cash,Yearly,263,0.78,48.33274968613687,Eastern Cape,Yes,1
+59,40,Female,Single,Health,17,13715.91,1,1382.51,Medium Value,95364.3,PhD,0,3.9509594674404527,Credit Card,Yearly,96,6.47,85.74986664682086,Eastern Cape,No,0
+60,49,Male,Divorced,Travel,13,17204.84,1,3506.38,Low Value,48896.52,High School,1,4.38090712137202,Cash,Yearly,262,7.07,47.00173825397294,Western Cape,Yes,1
+61,46,Female,Single,Life,17,8792.49,1,1706.29,Medium Value,67755.42,High School,0,1.4930611674986745,Debit Order,Monthly,341,3.37,54.674515085299134,Western Cape,Yes,1
+62,40,Female,Single,Health,16,16287.37,1,3837.59,Medium Value,59624.78,Master,2,4.061122173180908,EFT,Quarterly,3,8.31,77.27138061697099,Western Cape,No,1
+63,59,Female,Widowed,Health,3,11201.8,1,3740.91,Low Value,39949.74,High School,4,3.2024001835150715,Credit Card,Quarterly,218,2.27,64.30800167748816,KZN,Yes,1
+64,62,Male,Married,Auto,16,22852.47,1,2835.13,Low Value,47764.89,Bachelor,2,3.548512373693069,Credit Card,Yearly,180,0.7,48.71533014798978,Free State,Yes,1
+65,53,Female,Single,Health,16,18740.17,2,2215.01,Medium Value,102514.57,Bachelor,1,3.848724347524452,Cash,Yearly,364,5.37,65.61877664176467,Eastern Cape,Yes,1
+66,57,Female,Married,Travel,16,9755.86,1,3192.29,Medium Value,94785.84,Bachelor,0,3.8110709037235564,EFT,Monthly,16,4.78,69.31008146326018,Eastern Cape,Yes,1
+67,41,Female,Divorced,Travel,18,19083.49,3,8107.24,Low Value,49279.93,High School,1,5.289874829562361,Debit Order,Monthly,287,3.85,46.44427328698879,Gauteng,Yes,1
+68,24,Male,Single,Auto,13,16038.44,0,0.0,Low Value,37059.96,PhD,4,3.0723849798055642,EFT,Quarterly,81,9.07,0.0,Western Cape,Yes,1
+69,41,Female,Married,Health,2,10721.13,2,4640.37,Medium Value,121128.18,Bachelor,0,9.084792845428145,EFT,Yearly,209,6.46,20.29120680153737,Western Cape,No,1
+70,52,Male,Widowed,Home,9,18647.71,1,1334.63,Low Value,78965.57,PhD,3,3.6992581118599466,Credit Card,Monthly,238,2.58,36.98812200938899,KZN,Yes,1
+71,18,Male,Single,Travel,16,13498.2,0,0.0,Low Value,27928.2,PhD,0,5.920150020599293,Credit Card,Quarterly,72,4.25,36.323955725254955,KZN,Yes,0
+72,54,Male,Married,Health,4,10584.21,0,0.0,High Value,149258.04,High School,4,8.349638984333208,Debit Order,Monthly,225,13.5,100.0,Western Cape,Yes,0
+73,51,Female,Divorced,Health,8,17776.88,0,0.0,High Value,140656.94,High School,0,10.0,Debit Order,Quarterly,240,11.41,74.39901097435146,Free State,No,1
+74,41,Male,Married,Travel,2,9132.15,1,1507.18,Medium Value,103212.58,PhD,1,8.591755346191043,EFT,Quarterly,266,3.91,68.75700564234435,Eastern Cape,Yes,0
+75,42,Male,Widowed,Home,1,16429.33,1,891.44,Medium Value,85016.85,PhD,2,4.933746054252405,Cash,Quarterly,36,10.38,70.42141546269809,Western Cape,Yes,0
+76,57,Female,Divorced,Health,12,9695.87,1,4211.06,Low Value,50228.37,PhD,4,8.693414651472068,EFT,Quarterly,288,5.72,44.58331480565887,Free State,Yes,0
+77,65,Male,Married,Home,8,9155.52,1,3645.46,Low Value,28862.28,Master,4,4.259353262805407,Debit Order,Quarterly,157,2.5,63.50961799958428,Eastern Cape,Yes,1
+78,30,Male,Widowed,Travel,13,16715.55,0,0.0,Low Value,36682.04,Bachelor,2,5.379441767116116,EFT,Quarterly,73,8.56,36.45470749113461,Free State,Yes,1
+79,54,Female,Single,Life,3,17593.2,1,3969.43,Medium Value,70629.4,Master,0,3.8269038229573136,Debit Order,Quarterly,250,10.73,65.50653400182101,KZN,Yes,1
+80,23,Female,Divorced,Home,14,12370.97,2,5013.12,Low Value,21551.96,Master,4,4.644519357025188,Debit Order,Monthly,156,7.5,32.579449466233264,Western Cape,No,1
+81,28,Male,Married,Life,2,18251.01,1,2289.17,Low Value,38512.36,PhD,2,2.766828391492306,Cash,Quarterly,14,1.49,28.295475192146426,Free State,No,1
+82,35,Male,Married,Health,14,18200.95,1,1216.61,Low Value,64397.79,Master,2,1.0,Cash,Yearly,348,5.59,50.63505636382769,Gauteng,No,1
+83,31,Male,Single,Health,6,16874.89,1,2712.18,Low Value,28639.01,High School,4,6.681287097977448,Debit Order,Quarterly,63,3.04,35.84651740305433,Eastern Cape,Yes,1
+84,63,Male,Widowed,Travel,14,14873.05,1,3627.42,High Value,135495.36,High School,0,6.90457728771604,EFT,Monthly,75,17.21,79.66095365832771,Free State,No,1
+85,49,Male,Single,Travel,17,16041.91,0,0.0,Low Value,9373.98,Master,3,2.2292562686605355,Credit Card,Yearly,165,1.68,66.96529790274283,Western Cape,No,1
+86,72,Female,Married,Health,11,18204.21,0,0.0,Medium Value,80894.46,Bachelor,1,3.706126444588852,Debit Order,Quarterly,203,6.18,70.22167620535929,Gauteng,No,1
+87,24,Male,Widowed,Health,10,15572.67,2,5737.62,Medium Value,94252.18,PhD,2,6.300563149919406,EFT,Quarterly,11,9.7,44.52635629694763,Gauteng,No,1
+88,68,Male,Widowed,Auto,11,12353.51,2,9967.01,High Value,133082.59,Master,2,8.128554776053473,Credit Card,Yearly,92,5.97,74.44744054169915,KZN,No,1
+89,38,Male,Single,Health,19,21922.21,2,5625.96,Medium Value,91361.84,High School,1,4.789216149125347,Credit Card,Monthly,65,10.34,79.75415344848844,KZN,Yes,0
+90,71,Female,Single,Home,11,17196.51,1,4261.99,Low Value,32855.49,PhD,1,7.776625402867616,EFT,Yearly,13,4.92,57.59093528889047,Free State,Yes,0
+91,64,Male,Divorced,Auto,13,3827.87,1,2259.87,High Value,153528.0,High School,1,10.0,Debit Order,Yearly,163,14.61,79.29619131681224,Eastern Cape,Yes,1
+92,31,Female,Widowed,Auto,15,17385.2,1,4229.98,Medium Value,89733.86,PhD,0,2.2160073256239796,Cash,Yearly,312,3.95,54.76113443522357,Eastern Cape,Yes,1
+93,54,Female,Single,Health,11,21072.55,3,3010.91,Low Value,38657.16,High School,1,4.356753727908074,EFT,Monthly,281,3.65,50.98960115823369,Gauteng,Yes,1
+94,31,Male,Widowed,Life,11,14596.42,0,0.0,High Value,163744.92,Master,2,7.692976951795986,Debit Order,Monthly,177,11.28,48.68166448099087,Free State,Yes,1
+95,69,Male,Widowed,Life,15,15319.28,0,0.0,Medium Value,81808.85,Master,4,7.146174690820626,Credit Card,Monthly,85,4.51,72.07789012171422,KZN,No,1
+96,47,Male,Single,Health,17,8905.14,0,0.0,High Value,143969.48,High School,0,7.558060850925078,Debit Order,Quarterly,301,10.54,91.27610410090364,Western Cape,No,0
+97,65,Male,Divorced,Travel,4,5745.3,0,0.0,Low Value,54151.96,PhD,0,7.010285146556036,Cash,Monthly,72,4.24,36.070503455221704,Gauteng,Yes,1
+98,55,Male,Married,Life,13,12461.6,2,8901.02,Low Value,35206.65,High School,0,6.896353650724603,EFT,Quarterly,212,1.71,18.399236761085586,Gauteng,Yes,1
+99,46,Male,Divorced,Life,0,11805.19,0,0.0,Medium Value,60153.65,Master,1,5.005564741843158,Cash,Yearly,84,9.86,60.88713183408634,KZN,Yes,1
+100,43,Female,Married,Home,11,20630.59,0,0.0,Low Value,3753.22,High School,1,3.933792150270973,Credit Card,Quarterly,363,7.28,44.21787135954064,Eastern Cape,Yes,1
+101,32,Female,Widowed,Auto,3,14055.52,0,0.0,Low Value,48296.1,PhD,3,6.04483722656513,EFT,Monthly,155,5.62,11.318452583727098,Western Cape,Yes,1
+102,66,Male,Married,Home,12,16984.19,1,1315.17,Medium Value,81580.63,Bachelor,0,2.331949010163591,Cash,Quarterly,297,4.57,71.94313212678782,Eastern Cape,Yes,1
+103,61,Female,Married,Travel,12,17359.81,3,4362.61,Medium Value,82088.23,High School,1,6.479499879756518,Cash,Quarterly,151,4.24,41.34205146913072,Western Cape,No,1
+104,36,Female,Married,Home,3,11535.47,1,929.91,Medium Value,113340.43,PhD,0,2.524358111825768,Debit Order,Quarterly,107,3.94,66.80306750617764,Gauteng,Yes,1
+105,32,Male,Divorced,Auto,2,19819.4,0,0.0,Medium Value,113157.85,Bachelor,0,3.3926508640605384,Cash,Monthly,124,9.92,74.64575930193155,Eastern Cape,No,1
+106,36,Female,Widowed,Health,3,20520.25,2,1714.77,Low Value,23488.31,Master,0,3.5774027504789245,Cash,Monthly,195,8.72,36.77601241021912,Western Cape,Yes,1
+107,49,Male,Widowed,Health,7,16654.4,1,1998.51,Medium Value,92502.93,PhD,3,6.3899958015537495,Cash,Monthly,353,10.84,30.733222877267146,Eastern Cape,Yes,1
+108,22,Male,Single,Home,12,11855.36,2,4685.3,Medium Value,44966.41,Master,3,4.0014055208560055,Debit Order,Quarterly,114,5.22,71.70117269574874,Free State,No,1
+109,23,Male,Single,Home,17,17125.89,1,1216.87,Low Value,45034.87,Bachelor,3,2.858811323528796,Cash,Yearly,65,2.33,16.953223892646566,Free State,Yes,1
+110,20,Male,Single,Life,19,9046.76,0,0.0,High Value,156735.16,Master,3,5.938984754123686,EFT,Quarterly,100,10.08,42.971856261735375,Gauteng,Yes,1
+111,62,Male,Married,Home,2,16865.29,1,1453.92,High Value,180029.19,Bachelor,4,8.424542979011756,Cash,Yearly,280,10.36,50.46279071039679,Eastern Cape,Yes,1
+112,33,Female,Divorced,Home,13,13908.74,0,0.0,Low Value,34424.31,High School,4,3.0153734679278115,Cash,Quarterly,24,4.68,38.96813730347683,Western Cape,No,1
+113,45,Male,Divorced,Health,12,18628.83,0,0.0,Medium Value,73115.65,Bachelor,2,7.287975838404327,Cash,Quarterly,265,0.0,58.81381878590472,Eastern Cape,No,1
+114,32,Female,Married,Home,8,7598.58,1,835.83,Medium Value,68453.47,PhD,3,3.87908980344012,EFT,Yearly,96,5.48,60.04569030230122,Western Cape,No,1
+115,69,Female,Single,Home,19,19752.69,2,6886.68,Low Value,46379.94,PhD,2,7.415618616922004,EFT,Yearly,228,4.05,46.27309919131804,Free State,Yes,1
+116,38,Female,Married,Life,5,14490.92,0,0.0,Low Value,17816.33,Master,4,5.3667198395583116,EFT,Monthly,241,1.42,47.69265419619066,Eastern Cape,Yes,1
+117,34,Female,Divorced,Health,2,19080.59,1,1171.57,Low Value,20379.27,Bachelor,1,7.336435443633729,Debit Order,Yearly,231,2.41,46.64209571531373,Eastern Cape,No,1
+118,59,Male,Divorced,Home,12,21029.63,0,0.0,Medium Value,77032.93,PhD,1,4.240485320039516,Credit Card,Quarterly,313,7.43,49.343211752475725,Eastern Cape,No,1
+119,25,Female,Single,Auto,7,16832.29,2,9894.48,Medium Value,76145.68,High School,4,7.186137173226422,Credit Card,Monthly,151,6.73,60.15034953363381,Gauteng,Yes,1
+120,53,Female,Single,Life,10,12287.01,3,7063.77,Medium Value,68030.61,Master,3,4.71053869742856,Cash,Quarterly,336,7.99,48.64807367145809,Free State,Yes,1
+121,67,Male,Divorced,Travel,2,16405.9,2,1377.56,High Value,136115.69,PhD,4,6.853862063185854,Cash,Quarterly,257,6.8,100.0,Eastern Cape,No,0
+122,51,Male,Widowed,Travel,10,23996.36,0,0.0,Medium Value,76422.0,Master,3,3.4419723139326157,Credit Card,Quarterly,113,4.34,55.84780050166619,Eastern Cape,No,1
+123,52,Female,Divorced,Travel,6,19187.81,2,7988.03,Medium Value,67795.32,High School,2,7.249597289186383,EFT,Quarterly,344,2.6,58.58442374946928,KZN,No,1
+124,48,Male,Married,Auto,14,14570.53,2,5880.13,Medium Value,51512.35,High School,2,5.156858798037286,Credit Card,Yearly,22,7.26,65.71737577324167,Gauteng,Yes,0
+125,64,Male,Married,Health,7,13747.66,0,0.0,High Value,149705.65,PhD,2,9.575964947603877,Credit Card,Monthly,9,8.73,91.38816499879749,Western Cape,Yes,0
+126,65,Male,Divorced,Auto,12,17919.43,1,4316.22,High Value,162404.92,Master,3,8.595605346098832,EFT,Yearly,74,11.9,87.12928383979838,KZN,Yes,0
+127,21,Male,Single,Home,14,23634.82,2,4713.6,Medium Value,74005.46,Bachelor,4,4.167611994539719,Cash,Yearly,272,1.46,51.7221278116133,Eastern Cape,Yes,1
+128,33,Female,Single,Life,19,27791.0,1,3544.11,High Value,161675.42,PhD,0,5.897628567342933,EFT,Quarterly,318,13.35,70.26101632886113,KZN,No,1
+129,36,Female,Single,Auto,15,10477.43,1,2171.4,Low Value,35453.61,Bachelor,3,5.379695672424929,Credit Card,Yearly,197,6.73,58.31550543288029,Gauteng,Yes,1
+130,31,Male,Married,Health,10,17910.49,2,6089.95,High Value,157676.07,Master,4,5.289338971221483,Credit Card,Quarterly,197,4.31,82.55447543243591,Eastern Cape,No,1
+131,63,Male,Divorced,Life,18,11543.41,1,4718.09,Medium Value,46645.82,Bachelor,1,5.411372749921369,Credit Card,Yearly,128,3.86,55.88657464418203,KZN,No,1
+132,38,Female,Married,Home,11,10003.44,0,0.0,Low Value,53294.95,Bachelor,1,3.6146768843397945,Credit Card,Yearly,335,1.79,10.952218982378263,Western Cape,No,1
+133,26,Female,Single,Travel,12,20265.29,0,0.0,Medium Value,110499.58,High School,1,5.702577618849083,Cash,Monthly,142,10.07,56.123989196892474,Eastern Cape,No,1
+134,31,Female,Single,Health,4,19633.6,1,3443.79,Low Value,20002.64,High School,0,9.829581997317263,EFT,Yearly,340,0.15,57.47109031685757,Eastern Cape,Yes,1
+135,21,Female,Married,Health,9,16319.47,2,4635.8,Medium Value,71142.83,High School,0,3.344819558702561,Debit Order,Quarterly,197,5.26,56.45036721703431,Western Cape,Yes,1
+136,74,Female,Widowed,Home,1,20751.45,0,0.0,Medium Value,67360.7,High School,3,7.006102619322368,Credit Card,Monthly,58,3.06,59.11677285145913,Free State,No,1
+137,24,Female,Single,Travel,19,22913.94,1,1068.14,Medium Value,84120.22,Bachelor,3,4.279053191590808,Credit Card,Quarterly,167,6.53,73.24664665720738,Eastern Cape,Yes,1
+138,23,Female,Divorced,Travel,6,14610.81,2,7980.51,High Value,151699.06,Bachelor,3,4.123444043365266,Credit Card,Yearly,296,15.62,96.20072098571973,Free State,No,1
+139,65,Male,Divorced,Auto,13,8904.43,2,8714.61,High Value,151765.82,Master,1,7.054645521728347,Credit Card,Quarterly,219,6.15,71.80238908236868,Gauteng,No,1
+140,60,Female,Single,Home,4,12421.41,1,875.59,High Value,150363.29,Master,0,9.824441110830858,Cash,Quarterly,62,6.83,79.38476868494804,Eastern Cape,No,1
+141,45,Female,Married,Travel,5,16949.43,0,0.0,High Value,138414.45,PhD,1,7.388768603154672,Cash,Yearly,188,8.94,61.119025261054844,Free State,No,1
+142,61,Male,Widowed,Health,10,9954.21,2,3288.9,High Value,151046.69,PhD,4,9.084038966325874,EFT,Yearly,155,8.3,73.83937011346374,Western Cape,Yes,0
+143,28,Male,Single,Travel,15,22912.48,2,1280.04,Medium Value,87702.43,PhD,1,7.389348288656043,Credit Card,Quarterly,155,1.64,46.15301084313228,Western Cape,Yes,0
+144,72,Male,Single,Life,2,17519.09,1,1873.9,Low Value,47708.62,Bachelor,3,5.359163563879196,Credit Card,Quarterly,38,5.85,51.19840143521605,KZN,No,1
+145,44,Male,Single,Home,1,6475.61,2,9791.2,Low Value,5845.13,High School,3,4.90124619288763,Credit Card,Quarterly,269,4.09,36.672086443070405,Western Cape,No,1
+146,68,Male,Single,Home,2,17108.42,2,9665.29,Medium Value,93329.94,Bachelor,3,3.946489134690019,Credit Card,Monthly,274,6.1,87.57275515192684,Western Cape,Yes,1
+147,50,Female,Widowed,Health,19,18999.71,0,0.0,Medium Value,55755.34,PhD,3,4.28579526038452,Debit Order,Monthly,85,7.38,58.433261721937924,Eastern Cape,No,1
+148,52,Male,Widowed,Travel,10,14155.89,3,12723.54,Medium Value,83977.33,Bachelor,0,6.283861069923102,Credit Card,Monthly,215,3.45,63.61572715662248,KZN,No,1
+149,32,Male,Single,Auto,8,10066.81,0,0.0,Medium Value,72971.26,Bachelor,0,2.971162245664001,Debit Order,Monthly,347,7.35,56.30906267805077,Western Cape,Yes,1
+150,19,Female,Single,Life,1,10783.77,2,4662.75,High Value,162098.46,Bachelor,2,7.412099035759026,Credit Card,Yearly,361,5.78,78.75341641056959,Eastern Cape,Yes,1
+151,73,Male,Married,Life,16,13975.32,0,0.0,Low Value,40103.02,High School,3,4.380235852712497,Cash,Yearly,244,0.0,47.20219204333554,Eastern Cape,Yes,1
+152,26,Male,Married,Auto,4,28654.34,0,0.0,Medium Value,82930.63,Master,4,6.984921662989053,EFT,Monthly,191,3.8,50.20654841382657,Gauteng,Yes,1
+153,29,Male,Widowed,Home,7,16335.63,1,4207.06,High Value,157630.88,PhD,1,8.375726654374036,Debit Order,Yearly,173,11.26,82.17301496986333,KZN,Yes,1
+154,47,Male,Widowed,Home,0,11926.14,1,1044.61,Medium Value,78031.15,PhD,1,5.153703765917537,Credit Card,Monthly,242,6.54,57.47537649056896,Eastern Cape,Yes,1
+155,19,Male,Single,Life,18,14507.06,2,8863.29,Medium Value,80282.74,Master,2,5.41982417928374,Credit Card,Yearly,349,10.06,34.54353922520622,Gauteng,Yes,1
+156,43,Male,Single,Auto,4,11772.15,0,0.0,Low Value,52831.9,Bachelor,3,7.574648780304281,Credit Card,Yearly,276,3.06,66.62966338914268,KZN,Yes,1
+157,70,Male,Married,Auto,5,13671.15,4,7739.6,Medium Value,101501.34,High School,1,4.455144597511417,EFT,Monthly,166,4.78,40.99658292714223,Western Cape,Yes,1
+158,18,Male,Widowed,Home,0,15221.3,1,2827.58,Low Value,46546.38,High School,0,7.652684395974441,Debit Order,Monthly,293,5.32,57.95036226481957,Eastern Cape,No,1
+159,55,Female,Married,Life,0,15139.76,0,0.0,Low Value,46272.81,High School,2,2.8037090439383068,EFT,Monthly,305,3.91,27.42705528985722,KZN,Yes,1
+160,54,Female,Divorced,Life,9,12781.91,1,2498.57,High Value,137069.25,Bachelor,2,7.189999766994074,Debit Order,Yearly,125,5.38,57.705844550745596,Eastern Cape,Yes,1
+161,54,Female,Divorced,Health,8,23662.57,2,3721.0,Low Value,73469.5,High School,2,5.060991009507196,Cash,Monthly,20,1.03,40.91673414051082,Eastern Cape,Yes,1
+162,41,Female,Married,Travel,2,17469.76,0,0.0,Low Value,50654.99,Master,1,6.710217264309376,Cash,Quarterly,103,8.2,30.484853412464822,Western Cape,Yes,1
+163,25,Female,Single,Auto,4,28221.72,0,0.0,High Value,127455.45,Master,2,5.81078833232099,Cash,Yearly,245,3.71,84.62075809256153,Eastern Cape,Yes,0
+164,37,Female,Single,Health,8,13041.76,2,5164.08,High Value,166890.75,Master,1,6.897212552823028,Credit Card,Monthly,227,7.28,70.1935049202677,Gauteng,No,1
+165,28,Male,Widowed,Health,18,20280.28,2,7880.75,Medium Value,83348.58,High School,4,5.326122134858832,Credit Card,Quarterly,327,4.98,57.07637579470978,Western Cape,No,1
+166,36,Female,Single,Auto,5,20668.85,0,0.0,High Value,160840.44,Master,1,5.275295253873111,Debit Order,Quarterly,21,13.37,94.21289693184286,Western Cape,Yes,1
+167,38,Female,Widowed,Health,15,12358.61,2,9914.91,Low Value,55211.57,Bachelor,1,3.9287733231491764,Debit Order,Quarterly,134,7.57,38.1440749559924,KZN,Yes,1
+168,30,Female,Widowed,Travel,7,13217.64,5,11479.75,Medium Value,94427.82,High School,2,2.7451538877069837,Cash,Quarterly,354,11.33,71.76900477655063,Western Cape,Yes,1
+169,62,Female,Single,Travel,18,5531.93,0,0.0,Medium Value,83199.41,Bachelor,3,5.894798692933585,Debit Order,Yearly,183,2.73,45.029552442304194,Free State,Yes,1
+170,31,Female,Widowed,Travel,6,11182.84,1,3382.14,High Value,125206.22,PhD,0,9.40622529286161,EFT,Monthly,280,0.94,82.75774317130542,Free State,Yes,0
+171,69,Male,Married,Life,19,9473.23,3,8522.29,Low Value,51732.74,High School,1,2.7538788797108964,Cash,Quarterly,289,4.03,45.02858030604923,Western Cape,Yes,1
+172,32,Male,Married,Travel,16,10262.54,1,1742.76,Medium Value,67123.25,Bachelor,2,7.251175542080688,EFT,Quarterly,120,0.96,47.71113210417754,Gauteng,No,1
+173,53,Female,Divorced,Travel,17,14202.03,1,4838.35,Low Value,54174.57,PhD,1,5.156697337925188,Debit Order,Yearly,315,3.34,61.3412220414991,Western Cape,Yes,1
+174,38,Male,Divorced,Auto,10,19631.08,4,7364.94,Low Value,49236.57,High School,1,7.407768874337632,Credit Card,Monthly,100,0.0,39.54742500056298,Eastern Cape,No,1
+175,65,Male,Widowed,Health,17,21353.5,0,0.0,Low Value,49462.24,High School,4,5.65348952920464,Cash,Yearly,15,5.9,54.006758693085146,Free State,No,1
+176,53,Female,Divorced,Home,12,13373.19,1,2276.3,High Value,155582.53,PhD,3,5.825004370056514,Cash,Quarterly,148,8.97,100.0,KZN,Yes,1
+177,60,Male,Single,Life,2,20010.43,2,7192.4,Low Value,47757.95,PhD,1,4.56392824360356,Cash,Yearly,110,0.0,49.885470233086046,Gauteng,Yes,1
+178,42,Female,Married,Auto,3,13622.45,0,0.0,Medium Value,54557.31,High School,0,4.342930183074536,Debit Order,Yearly,103,2.71,62.03630819876498,Gauteng,Yes,1
+179,54,Male,Divorced,Health,5,5560.88,0,0.0,Low Value,29123.0,PhD,0,6.977338338716005,Credit Card,Yearly,134,0.95,45.33689462391493,Eastern Cape,Yes,0
+180,40,Female,Single,Travel,7,18842.59,0,0.0,High Value,154681.04,High School,1,7.299863340126782,Credit Card,Yearly,204,9.47,100.0,Western Cape,Yes,0
+181,26,Male,Single,Home,4,25632.18,1,3996.18,Low Value,46494.65,Master,1,4.249607239352126,Credit Card,Yearly,25,4.05,33.09390076541137,Gauteng,Yes,0
+182,25,Female,Widowed,Auto,7,19323.72,1,3392.69,High Value,147728.8,High School,3,7.8329228895122816,EFT,Yearly,56,10.99,89.29889498593707,Gauteng,Yes,1
+183,22,Female,Married,Home,19,10824.29,0,0.0,Medium Value,111343.08,PhD,4,6.309308325816016,Credit Card,Yearly,209,5.55,40.386384241634985,Eastern Cape,Yes,1
+184,23,Male,Widowed,Life,7,15958.3,0,0.0,High Value,143561.33,PhD,0,8.17710653954144,Credit Card,Quarterly,271,9.91,100.0,Eastern Cape,Yes,0
+185,74,Female,Married,Home,11,12881.12,1,3300.54,High Value,125739.56,Master,3,8.070282870910642,EFT,Quarterly,124,12.28,86.38830809289554,KZN,No,1
+186,25,Male,Divorced,Travel,3,15095.74,0,0.0,Medium Value,83482.34,PhD,4,2.5937347959666144,Credit Card,Yearly,85,8.41,65.24392499040445,KZN,No,1
+187,45,Female,Widowed,Home,9,12550.25,2,3212.27,Medium Value,87029.09,PhD,3,3.4076585906125105,Credit Card,Yearly,264,6.02,59.89199931314495,Gauteng,Yes,1
+188,20,Male,Divorced,Health,19,18075.15,0,0.0,Low Value,14429.54,High School,0,4.154917779189924,EFT,Quarterly,273,0.0,64.1525729406791,Eastern Cape,No,1
+189,43,Male,Married,Home,12,17435.82,0,0.0,Low Value,49862.87,Bachelor,4,4.270901706929953,Debit Order,Monthly,255,0.62,69.64660876773229,KZN,Yes,1
+190,36,Female,Divorced,Life,12,7178.79,0,0.0,High Value,147163.19,Bachelor,3,8.84330022384892,Debit Order,Monthly,278,8.92,27.92855162092426,Western Cape,Yes,1
+191,58,Male,Married,Home,15,19434.44,0,0.0,Low Value,33688.57,Master,2,1.0,EFT,Monthly,279,5.6,53.49152561133583,Gauteng,Yes,1
+192,51,Male,Divorced,Health,16,18722.92,1,2413.53,Low Value,45215.15,Master,0,4.025542871772895,EFT,Monthly,248,4.48,31.715174896339832,Free State,No,1
+193,56,Male,Divorced,Travel,5,14859.55,1,1360.03,Low Value,36698.14,High School,2,7.43474713950326,Cash,Quarterly,342,7.46,52.80587008385916,Free State,No,1
+194,68,Female,Single,Auto,13,16181.63,0,0.0,High Value,129349.05,High School,4,6.071557805133548,Debit Order,Monthly,309,15.22,94.68287076172693,Gauteng,Yes,0
+195,27,Male,Divorced,Home,1,17091.99,1,1693.97,Medium Value,101023.98,High School,3,3.151005581488793,EFT,Monthly,356,5.99,60.49991888498703,KZN,Yes,1
+196,58,Male,Married,Life,1,10219.12,2,9288.95,Medium Value,89988.86,Master,0,5.843173221228911,Debit Order,Monthly,250,6.93,43.292203505983,KZN,Yes,1
+197,66,Female,Widowed,Health,11,11453.11,1,2671.25,Medium Value,108142.6,PhD,3,4.412066104671635,Cash,Yearly,77,4.79,37.231893799787855,KZN,No,1
+198,74,Male,Widowed,Health,0,13214.85,1,2771.58,Medium Value,76430.85,Master,2,5.538048136275067,Debit Order,Monthly,146,2.01,55.80190370750967,Gauteng,No,1
+199,21,Female,Divorced,Life,11,18467.39,2,6623.87,Medium Value,74119.81,PhD,2,2.3090303274955555,Debit Order,Monthly,327,7.05,61.04620273261573,KZN,Yes,1
+200,44,Male,Divorced,Life,11,11801.18,1,3797.15,Medium Value,71962.98,PhD,2,1.5852840848141065,EFT,Monthly,213,3.7,57.550187890741526,Western Cape,Yes,1
+201,30,Male,Married,Auto,19,20586.99,0,0.0,Medium Value,101727.49,High School,3,3.0724821475787785,Debit Order,Monthly,201,2.13,66.07371148438695,Free State,Yes,1
+202,45,Male,Married,Travel,8,14788.32,2,4118.72,Low Value,27572.27,PhD,0,3.6744310424112676,EFT,Monthly,290,2.23,24.940639418777522,Western Cape,Yes,1
+203,60,Male,Widowed,Life,6,14416.85,1,914.43,Medium Value,69153.68,High School,4,6.622793108983184,Debit Order,Monthly,351,1.56,36.37530795850464,Gauteng,Yes,1
+204,46,Male,Divorced,Life,3,19630.31,1,1196.73,High Value,158272.14,Master,2,7.681178432800993,Cash,Yearly,247,14.99,90.87085786841388,Free State,Yes,0
+205,66,Male,Widowed,Life,12,7344.46,2,8558.21,Low Value,47713.82,Bachelor,0,8.399264833288495,Cash,Yearly,177,4.96,43.37961883061412,Free State,No,1
+206,32,Male,Married,Life,3,13152.37,1,540.74,Medium Value,103523.6,PhD,1,7.580736244389341,EFT,Monthly,211,6.76,43.0728955537868,Western Cape,No,1
+207,69,Female,Widowed,Home,14,14629.36,0,0.0,High Value,146367.76,Bachelor,2,10.0,Credit Card,Monthly,313,9.1,100.0,Free State,Yes,0
+208,35,Male,Single,Auto,5,23170.98,1,1774.87,Medium Value,84954.36,High School,2,1.0,Debit Order,Monthly,237,7.93,48.70732845921414,Gauteng,Yes,1
+209,60,Male,Divorced,Travel,6,11070.07,3,10008.34,Low Value,19284.33,Bachelor,3,4.9956670935442276,EFT,Quarterly,113,8.82,48.0748603359539,Gauteng,Yes,1
+210,39,Male,Single,Travel,10,15921.24,1,3156.05,Medium Value,72902.45,PhD,3,4.93885967316501,Cash,Quarterly,206,7.94,44.902300609356296,Free State,Yes,1
+211,55,Female,Married,Travel,5,15212.41,4,10031.62,High Value,134941.63,Bachelor,0,4.829698946884404,Debit Order,Yearly,311,7.52,55.65608628754853,Eastern Cape,No,1
+212,41,Female,Divorced,Auto,12,16767.15,0,0.0,High Value,132816.93,High School,1,4.273254750557683,Credit Card,Yearly,313,9.31,67.22890348609529,Gauteng,Yes,1
+213,39,Male,Widowed,Health,8,17088.37,3,9742.38,Low Value,52704.96,PhD,4,8.189468014633832,EFT,Yearly,111,3.08,41.681574202367756,Eastern Cape,Yes,1
+214,34,Male,Married,Health,10,23723.2,2,6711.75,Medium Value,76177.37,Master,2,4.324943428300278,Debit Order,Monthly,205,3.47,50.088869459470374,Western Cape,Yes,1
+215,45,Female,Single,Life,7,14804.98,3,11673.53,Low Value,43336.51,PhD,1,7.030456183330145,Cash,Monthly,92,4.28,24.791560715611936,Free State,Yes,1
+216,46,Male,Widowed,Auto,6,15428.44,0,0.0,Low Value,52876.77,Master,1,4.5307588600851725,Cash,Yearly,304,8.08,44.80340778249019,Free State,Yes,1
+217,46,Male,Married,Travel,10,9517.99,0,0.0,Medium Value,92573.55,Bachelor,0,7.128228366669427,Credit Card,Yearly,363,4.7,76.44703850716326,Eastern Cape,Yes,1
+218,19,Female,Married,Life,8,11871.61,2,4490.43,High Value,149357.65,Bachelor,3,7.1160454696167905,Credit Card,Yearly,238,11.49,80.66401960023671,Free State,Yes,0
+219,62,Female,Single,Health,17,21000.39,2,3890.46,Low Value,32621.46,PhD,2,3.2298005836657193,Debit Order,Yearly,59,9.37,53.45599295330698,Eastern Cape,No,1
+220,60,Male,Divorced,Home,1,21374.38,1,523.91,High Value,154028.01,Bachelor,0,10.0,Debit Order,Yearly,135,14.31,46.85972591264984,Gauteng,Yes,1
+221,49,Male,Divorced,Health,19,17048.81,2,2754.78,High Value,137083.68,PhD,4,6.023240357473997,Cash,Quarterly,276,7.93,91.7619138629705,Free State,Yes,0
+222,59,Female,Single,Life,11,16552.96,1,1719.24,Low Value,23655.5,PhD,2,3.4304761837445934,Cash,Monthly,93,6.2,49.8340586931014,Western Cape,No,1
+223,43,Female,Widowed,Auto,1,14171.14,2,5944.08,Medium Value,63773.79,High School,2,5.343678679587063,Credit Card,Monthly,128,6.66,79.46132131934556,Gauteng,Yes,1
+224,44,Male,Single,Travel,3,15571.73,1,3995.56,High Value,155248.35,Master,3,6.944288889245331,Debit Order,Quarterly,356,8.08,86.82521092073144,Eastern Cape,Yes,1
+225,39,Male,Single,Life,5,19676.96,3,7291.3,Low Value,36938.6,Bachelor,4,8.79347636399315,Debit Order,Quarterly,257,2.83,51.158149367719574,Eastern Cape,No,1
+226,44,Male,Married,Travel,19,17949.74,4,10384.86,Medium Value,63853.05,High School,2,2.680491105795734,Credit Card,Quarterly,186,4.11,76.49066082273677,KZN,Yes,1
+227,70,Female,Single,Travel,2,16197.94,0,0.0,Medium Value,87262.39,PhD,1,9.02454089140153,Debit Order,Quarterly,340,8.07,35.21449476444286,Western Cape,Yes,1
+228,36,Male,Divorced,Travel,10,7624.81,1,3104.78,Medium Value,75283.91,PhD,1,6.916576859410004,Credit Card,Quarterly,182,9.55,80.26703869891844,KZN,Yes,1
+229,67,Male,Widowed,Life,3,14395.19,4,17545.55,Low Value,56869.38,High School,2,5.00275930201597,Credit Card,Monthly,58,1.17,55.171945531125345,KZN,Yes,1
+230,24,Male,Widowed,Home,3,21707.38,1,690.54,Medium Value,89560.58,PhD,1,4.866234923085725,Debit Order,Monthly,111,0.0,29.244775176563255,Gauteng,Yes,1
+231,45,Female,Single,Home,12,16206.61,0,0.0,Medium Value,62734.79,Bachelor,3,4.068388861763674,Cash,Yearly,7,4.55,63.099696571475086,Gauteng,Yes,0
+232,60,Female,Widowed,Travel,6,18692.45,2,4378.97,High Value,140951.88,Master,0,5.726948553648795,Cash,Monthly,238,14.88,100.0,Western Cape,No,0
+233,63,Male,Single,Life,19,10899.39,1,4513.52,Low Value,10963.52,Master,2,4.208368759794672,EFT,Yearly,57,9.1,37.348387553263265,Free State,Yes,1
+234,69,Male,Divorced,Auto,14,7256.91,0,0.0,Medium Value,79073.54,Master,2,5.958883036172128,Debit Order,Yearly,109,1.23,68.78236115624424,Eastern Cape,Yes,0
+235,45,Male,Divorced,Health,16,8228.6,1,4542.07,Medium Value,64953.32,Master,1,6.066451123111284,Debit Order,Monthly,301,7.55,54.60555491321306,Free State,Yes,1
+236,63,Male,Widowed,Travel,2,16505.54,0,0.0,High Value,154695.75,High School,1,6.924680112949119,EFT,Monthly,312,7.01,94.74676449464822,Free State,Yes,1
+237,42,Male,Divorced,Home,15,16090.38,1,702.33,Low Value,40314.21,Bachelor,4,2.6312796553759545,Cash,Monthly,81,3.5,71.58752238022733,Eastern Cape,Yes,1
+238,24,Female,Widowed,Travel,2,13034.39,1,3643.39,Medium Value,93880.97,Bachelor,4,5.0635631363231814,Debit Order,Quarterly,336,5.13,80.170141801532,Gauteng,No,1
+239,31,Male,Divorced,Life,3,10608.65,0,0.0,Low Value,54429.35,Master,2,3.7842494786483645,Debit Order,Monthly,225,3.38,43.20179528919716,Eastern Cape,Yes,1
+240,74,Female,Married,Health,5,19143.55,1,2153.26,Low Value,57695.88,PhD,4,5.388215261906716,Credit Card,Monthly,189,5.41,14.973418691460576,Western Cape,Yes,1
+241,21,Male,Single,Life,12,21746.63,0,0.0,Low Value,64921.62,Bachelor,3,1.0,EFT,Quarterly,272,3.25,25.003707983678026,Eastern Cape,No,1
+242,25,Male,Widowed,Life,7,11082.39,3,11928.97,Medium Value,100581.75,Bachelor,0,6.214490907366812,Debit Order,Quarterly,285,8.51,54.51996070481294,Free State,Yes,1
+243,38,Male,Widowed,Health,15,15706.29,2,5511.48,Low Value,8041.5,PhD,3,6.445972526238442,Credit Card,Yearly,136,3.64,35.688287208994666,Gauteng,Yes,1
+244,26,Male,Single,Health,14,16436.64,1,4617.35,Low Value,43372.73,Master,2,5.970929049293484,EFT,Quarterly,231,10.74,52.962313202063285,Eastern Cape,Yes,1
+245,38,Male,Divorced,Health,7,14122.18,0,0.0,High Value,160029.82,High School,0,5.769541618584154,EFT,Yearly,343,5.08,87.58106410146496,Free State,Yes,0
+246,36,Male,Widowed,Home,5,15979.23,0,0.0,Medium Value,47086.28,Master,0,5.185715247943403,EFT,Monthly,298,3.32,29.66307622918658,KZN,Yes,1
+247,53,Female,Widowed,Travel,13,11678.88,0,0.0,High Value,163224.0,Master,1,8.993141021158895,EFT,Quarterly,207,8.6,59.174147888424585,Free State,Yes,1
+248,73,Male,Single,Auto,11,13913.58,0,0.0,Medium Value,83964.47,PhD,1,6.450398945346369,EFT,Yearly,210,2.15,86.21044796873338,Gauteng,Yes,0
+249,37,Male,Married,Auto,11,13649.2,1,1357.74,Low Value,48908.9,PhD,1,7.037146606372081,EFT,Monthly,115,5.87,45.28757452535319,Western Cape,Yes,1
+250,32,Female,Widowed,Home,13,12148.24,1,1239.82,Low Value,53670.44,Master,3,5.211507582542961,Credit Card,Monthly,302,5.13,36.15173529170689,Eastern Cape,Yes,1
+251,57,Female,Divorced,Travel,2,21962.73,1,1642.72,Medium Value,49263.14,PhD,1,2.7395925506521523,Credit Card,Quarterly,55,12.24,62.616889422550535,Western Cape,Yes,0
+252,19,Female,Divorced,Home,0,10818.56,3,13286.97,Medium Value,85888.96,Master,4,8.181006689129678,Credit Card,Quarterly,219,4.8,66.75983333001982,Gauteng,Yes,1
+253,69,Male,Divorced,Travel,11,7475.62,2,7198.86,High Value,151889.76,Master,0,6.0232165383659355,Cash,Yearly,272,11.26,63.82906775054428,Eastern Cape,Yes,1
+254,31,Male,Widowed,Home,12,11816.65,1,2214.46,High Value,143828.6,Bachelor,0,9.307801468511494,Credit Card,Monthly,244,8.4,83.38547206717284,Eastern Cape,Yes,0
+255,64,Female,Widowed,Home,4,9532.21,2,9352.92,High Value,137662.94,Bachelor,3,7.533345527566641,Debit Order,Yearly,238,7.28,71.20203095654097,Gauteng,Yes,1
+256,49,Male,Married,Home,15,16121.08,0,0.0,Medium Value,103940.73,Bachelor,1,4.286522873481944,Credit Card,Quarterly,127,3.33,63.065835474044654,Gauteng,Yes,1
+257,33,Male,Widowed,Life,15,14533.07,0,0.0,Medium Value,72060.02,Master,2,3.2461390984326908,Cash,Yearly,263,1.66,59.2457553845625,Western Cape,Yes,1
+258,33,Female,Widowed,Auto,2,11804.38,0,0.0,Low Value,32669.69,High School,1,7.698252696336812,Debit Order,Yearly,170,5.91,51.292408207127096,Western Cape,Yes,0
+259,63,Male,Widowed,Life,11,18661.17,0,0.0,Medium Value,76799.12,PhD,0,6.345886408990078,Credit Card,Yearly,111,0.0,62.296838438866146,KZN,No,1
+260,49,Male,Married,Home,3,19953.54,0,0.0,Low Value,44062.64,PhD,2,5.6038365260985525,Credit Card,Yearly,21,4.07,25.466059776271265,KZN,Yes,1
+261,59,Female,Married,Home,2,3311.23,0,0.0,Low Value,19499.02,PhD,4,3.5699562639395146,Cash,Yearly,255,1.91,42.8020658871648,KZN,Yes,1
+262,59,Male,Divorced,Home,13,9724.55,1,574.67,Medium Value,63009.96,Master,2,5.688711538575912,EFT,Quarterly,10,1.76,46.57593969687952,Free State,Yes,1
+263,74,Female,Single,Travel,9,14208.68,4,6461.72,Medium Value,79612.68,PhD,3,5.68876843475707,Debit Order,Quarterly,129,4.78,60.866615460202695,Eastern Cape,Yes,0
+264,64,Female,Widowed,Health,13,11421.65,0,0.0,Medium Value,72971.64,Bachelor,0,3.866025048381146,EFT,Monthly,291,4.67,46.55036659027188,KZN,Yes,1
+265,47,Female,Divorced,Travel,15,21064.86,3,10866.38,Medium Value,61223.63,Bachelor,4,7.657281656496462,Debit Order,Yearly,26,5.94,61.49887758325861,Gauteng,No,1
+266,19,Male,Single,Home,15,19328.76,0,0.0,Medium Value,96186.7,Master,2,3.8421979353271345,EFT,Yearly,317,1.21,43.59845126855382,KZN,Yes,1
+267,55,Male,Widowed,Travel,5,16401.96,0,0.0,Low Value,45430.6,High School,4,5.963567415722568,Cash,Quarterly,164,2.91,43.68845240369357,Eastern Cape,Yes,1
+268,48,Male,Single,Auto,2,3000.0,2,5209.13,Medium Value,56974.4,Bachelor,3,1.2399799321844727,Debit Order,Monthly,272,11.68,60.16386728360333,Eastern Cape,Yes,1
+269,41,Female,Married,Travel,0,17777.94,0,0.0,Medium Value,116439.24,Master,0,7.354413596104498,Cash,Quarterly,198,6.91,68.79499463367205,Western Cape,Yes,1
+270,57,Female,Widowed,Health,17,13019.37,2,7088.35,Medium Value,104348.95,Bachelor,3,6.834630322717551,Credit Card,Yearly,181,0.03,52.133277956060226,KZN,No,1
+271,59,Male,Widowed,Health,7,20802.47,1,3426.91,Low Value,20967.91,Bachelor,0,3.306298067749271,Cash,Yearly,88,8.75,36.86468350522961,KZN,Yes,1
+272,49,Female,Divorced,Auto,1,17667.43,2,7055.62,Medium Value,114409.66,High School,0,4.745483960195451,EFT,Yearly,77,8.77,53.71257087249042,Western Cape,Yes,1
+273,56,Female,Widowed,Home,9,21081.56,0,0.0,High Value,152507.09,PhD,3,3.8157129444113442,EFT,Monthly,163,12.62,99.56132690070493,KZN,Yes,0
+274,33,Male,Widowed,Health,4,24193.84,2,1146.19,Medium Value,97475.48,PhD,4,2.50881217677089,Cash,Quarterly,198,5.61,56.38195875299782,KZN,No,1
+275,61,Male,Single,Home,1,18413.18,1,1844.52,High Value,145280.05,Master,4,5.16745179887255,Debit Order,Yearly,82,14.07,99.98283666141178,KZN,Yes,0
+276,22,Female,Married,Home,7,16132.96,0,0.0,Low Value,61277.97,High School,1,1.0,Credit Card,Quarterly,15,3.31,55.21968079659118,Eastern Cape,Yes,1
+277,46,Female,Widowed,Home,19,9233.25,0,0.0,Low Value,57059.72,PhD,2,5.379127712869262,Cash,Monthly,275,2.02,47.98009298232915,Gauteng,Yes,1
+278,62,Male,Married,Health,10,16808.31,0,0.0,Low Value,71290.71,Master,2,2.9704810136282958,Credit Card,Yearly,210,5.84,17.451670983807077,Free State,Yes,1
+279,40,Male,Married,Travel,10,19607.07,3,2400.37,Low Value,28691.3,PhD,1,8.941728541435598,Cash,Monthly,229,4.94,25.51322469791583,Free State,No,1
+280,69,Female,Married,Home,14,17134.13,0,0.0,Medium Value,88981.09,Master,3,3.1595229404472454,EFT,Monthly,50,3.88,57.66651458217247,Free State,No,1
+281,74,Female,Married,Travel,19,10176.47,1,2355.26,High Value,174427.03,High School,4,7.43605018426513,Cash,Yearly,312,7.06,71.09282887896943,Western Cape,Yes,1
+282,31,Male,Widowed,Home,2,14171.84,2,4192.56,Medium Value,53091.61,PhD,4,2.2891049937754215,EFT,Monthly,63,0.0,45.972497552350724,Gauteng,Yes,1
+283,24,Female,Widowed,Health,16,27222.91,1,2021.38,Low Value,31865.76,Master,4,4.595196022737312,Debit Order,Yearly,131,5.23,72.47584101709904,Eastern Cape,No,1
+284,41,Male,Divorced,Home,18,20952.74,0,0.0,Medium Value,63633.06,Bachelor,3,5.575731796645625,Credit Card,Monthly,15,8.19,62.51276418795064,Western Cape,Yes,0
+285,56,Female,Widowed,Travel,15,13356.69,1,1917.55,Medium Value,50359.99,Bachelor,3,5.982858905440399,EFT,Quarterly,180,6.71,68.9368170239904,KZN,Yes,0
+286,43,Female,Single,Auto,12,9912.97,1,4107.58,Medium Value,85980.43,Master,2,4.021521534001811,EFT,Quarterly,245,2.98,53.95386016402454,KZN,Yes,1
+287,70,Female,Divorced,Auto,11,15658.22,1,1473.5,Medium Value,71156.49,Bachelor,2,4.47071462739855,Cash,Monthly,209,0.91,60.39191209403683,Gauteng,Yes,1
+288,23,Female,Divorced,Health,9,6325.36,2,9621.51,Medium Value,59839.33,Master,0,6.010653000156131,Debit Order,Yearly,264,6.5,68.45189931274858,Western Cape,Yes,0
+289,56,Male,Widowed,Life,14,17155.6,0,0.0,Low Value,30470.63,High School,4,3.342144773990209,EFT,Yearly,174,3.13,29.08491467715664,Gauteng,Yes,1
+290,30,Male,Single,Health,2,15047.33,3,2823.1,Low Value,42629.3,Master,4,2.3265491222481387,Credit Card,Quarterly,0,7.74,13.999242069176287,KZN,Yes,1
+291,67,Male,Single,Life,11,18924.95,0,0.0,Medium Value,96744.13,Bachelor,4,6.9556310993724,EFT,Monthly,145,0.0,45.56716230028972,Free State,Yes,1
+292,49,Male,Single,Travel,14,17512.24,1,3108.29,Low Value,40784.78,Bachelor,4,5.981657001236191,Cash,Monthly,268,1.22,47.61011532839312,KZN,Yes,1
+293,64,Female,Widowed,Life,11,14084.25,0,0.0,High Value,144649.9,PhD,4,7.224724253851608,Debit Order,Yearly,44,10.14,72.47323710782702,Western Cape,Yes,0
+294,40,Female,Divorced,Life,18,8137.67,0,0.0,Medium Value,98015.22,Bachelor,2,5.5658923690149695,Debit Order,Monthly,179,2.61,66.36590906791518,Eastern Cape,Yes,1
+295,30,Male,Widowed,Life,15,21409.96,1,3785.78,Medium Value,89496.42,High School,1,3.836435933215892,Debit Order,Monthly,63,1.48,73.79557939840748,Gauteng,Yes,0
+296,35,Male,Single,Auto,14,20289.34,0,0.0,Medium Value,59045.99,High School,2,5.677396737678371,Debit Order,Quarterly,302,4.85,57.59459878432754,Eastern Cape,No,1
+297,23,Female,Single,Home,8,12274.45,0,0.0,Low Value,62844.71,Master,0,4.20371597882306,Credit Card,Quarterly,116,3.16,42.448153825410316,Gauteng,Yes,1
+298,58,Male,Single,Life,5,13153.23,1,910.89,Low Value,29926.57,PhD,2,5.2258960648840675,Debit Order,Quarterly,145,2.33,60.6742614043401,Western Cape,Yes,1
+299,18,Male,Married,Life,3,14781.66,0,0.0,Low Value,13165.16,PhD,4,4.4050355982523,EFT,Quarterly,15,8.94,24.53965897869297,Gauteng,Yes,1
+300,33,Female,Married,Health,11,10690.58,1,2461.98,Medium Value,69667.51,Bachelor,0,5.285496672089914,Cash,Yearly,47,6.68,47.844244583625226,Free State,No,1
+301,35,Male,Married,Home,19,21158.84,1,1889.61,Low Value,15393.08,Bachelor,0,4.785290418571967,Cash,Monthly,275,8.0,42.6667728074344,KZN,No,1
+302,62,Male,Widowed,Travel,9,15708.81,0,0.0,Medium Value,74127.8,PhD,4,4.681329150608393,EFT,Quarterly,266,3.58,54.513004908097464,Free State,No,1
+303,29,Female,Divorced,Home,4,18910.65,1,2348.07,Low Value,28136.51,Master,4,4.641813429967687,EFT,Yearly,178,6.19,33.3265848017673,Eastern Cape,Yes,1
+304,42,Female,Divorced,Travel,12,10483.2,1,3767.5,Low Value,34377.93,High School,3,4.09875743185021,Cash,Quarterly,191,1.27,64.96468581586811,Eastern Cape,Yes,1
+305,33,Male,Married,Life,8,21707.16,2,9606.63,Low Value,29608.68,PhD,2,5.308967991438123,Credit Card,Quarterly,231,5.33,34.607668146945706,Gauteng,Yes,1
+306,24,Male,Widowed,Home,9,27518.98,1,3606.45,High Value,132984.05,Bachelor,0,9.459548449043874,Cash,Quarterly,173,10.48,100.0,KZN,Yes,0
+307,20,Male,Single,Auto,10,14355.5,4,17453.12,Low Value,45109.81,High School,0,3.4796538897695592,Credit Card,Quarterly,195,5.53,62.11069900219152,Western Cape,Yes,0
+308,18,Female,Single,Home,15,21657.94,1,1257.25,High Value,129830.26,PhD,3,7.423200761177013,EFT,Monthly,164,17.46,83.97162966466969,Western Cape,Yes,0
+309,49,Male,Married,Home,2,12034.64,3,13370.27,Medium Value,84720.59,Master,1,6.866256144682138,Cash,Yearly,334,4.33,56.94238603892027,Eastern Cape,No,1
+310,32,Male,Married,Health,2,12088.46,2,9798.31,Medium Value,82832.7,High School,4,1.651628602372193,EFT,Quarterly,97,4.57,41.10851084343655,Gauteng,Yes,1
+311,42,Male,Married,Health,5,14244.87,1,4411.29,Medium Value,70414.24,Bachelor,3,7.798566682540102,Debit Order,Yearly,290,3.85,47.362537629499485,Free State,Yes,1
+312,21,Male,Single,Home,6,17015.96,0,0.0,High Value,161897.64,High School,2,6.755885735757445,Cash,Quarterly,104,7.61,100.0,Gauteng,No,1
+313,60,Female,Single,Home,3,5929.87,4,6173.14,Medium Value,81615.56,PhD,3,1.0,Debit Order,Monthly,170,5.54,72.98889927457653,Eastern Cape,Yes,1
+314,23,Female,Widowed,Auto,15,20007.34,0,0.0,Low Value,29447.61,High School,4,5.418780933385634,Debit Order,Monthly,112,10.71,30.919106141086914,Gauteng,Yes,1
+315,40,Female,Divorced,Health,18,15186.56,0,0.0,Low Value,32504.87,High School,1,5.4515230462235085,Cash,Monthly,51,5.05,33.76735725415463,Western Cape,Yes,1
+316,64,Male,Single,Auto,11,18237.04,1,582.24,High Value,129912.57,Bachelor,0,7.31948673410149,Credit Card,Yearly,315,4.51,61.573342531013566,Eastern Cape,No,1
+317,46,Male,Single,Home,18,11388.66,1,1839.43,Low Value,35320.19,High School,0,3.032412164618356,EFT,Quarterly,56,7.97,47.27501937284842,KZN,Yes,1
+318,68,Male,Divorced,Travel,0,12660.89,0,0.0,Low Value,63548.0,Bachelor,1,5.137274096855431,Debit Order,Yearly,191,4.51,43.18140029611263,Free State,Yes,1
+319,63,Male,Married,Auto,12,19663.72,0,0.0,Low Value,6500.82,Master,4,7.508627065877278,EFT,Monthly,149,4.4,51.85567787564278,KZN,Yes,1
+320,23,Male,Married,Life,18,21502.63,1,679.15,Low Value,34257.74,Master,4,4.752542107450328,Credit Card,Quarterly,54,6.67,37.987822356003136,KZN,Yes,1
+321,50,Male,Divorced,Home,15,14775.53,1,3324.51,Low Value,42737.52,High School,1,8.106082152585298,EFT,Monthly,70,0.0,44.18487692122711,Western Cape,No,1
+322,18,Female,Divorced,Travel,13,19309.08,3,10798.94,Medium Value,73482.79,Master,2,1.9685793231975146,Cash,Monthly,190,7.35,88.81751430853562,Western Cape,No,1
+323,49,Male,Divorced,Home,14,19007.57,0,0.0,Medium Value,94659.73,Master,3,1.0,EFT,Monthly,88,6.54,43.35070744445626,Free State,Yes,1
+324,60,Male,Widowed,Travel,5,20735.31,0,0.0,Low Value,16898.71,Master,0,5.504635811461078,EFT,Quarterly,129,0.69,31.30039601288764,Free State,No,1
+325,34,Male,Married,Home,17,16597.62,2,2759.12,Low Value,64804.26,PhD,4,2.418564960423176,Debit Order,Quarterly,13,6.29,28.909428888114455,Eastern Cape,No,1
+326,73,Male,Widowed,Auto,14,20959.5,1,1656.78,Medium Value,91158.53,High School,3,3.3345895627890947,Credit Card,Monthly,25,0.0,46.64523227970192,KZN,No,1
+327,70,Male,Widowed,Life,2,18491.6,2,4076.64,Medium Value,76205.72,Master,1,7.387289731146455,Debit Order,Quarterly,117,3.33,80.90181791286648,Western Cape,No,0
+328,18,Female,Divorced,Health,16,18552.75,0,0.0,Low Value,24547.66,PhD,3,9.801489938918637,Credit Card,Quarterly,335,1.58,49.855901031385116,Free State,Yes,1
+329,50,Male,Widowed,Life,12,10779.42,1,3259.18,High Value,146157.89,High School,0,7.119535674746565,Debit Order,Yearly,268,12.85,100.0,Western Cape,Yes,0
+330,65,Female,Married,Auto,3,20019.01,0,0.0,Low Value,23961.84,PhD,3,1.8327003496790035,EFT,Quarterly,129,6.42,29.190609136138484,Free State,Yes,1
+331,19,Female,Single,Auto,3,6377.48,2,2605.74,Low Value,28910.01,High School,3,5.758306237452248,EFT,Quarterly,50,8.69,43.63520917547086,Western Cape,Yes,1
+332,70,Male,Divorced,Travel,10,8269.32,0,0.0,Medium Value,91799.06,PhD,4,3.9155245639443406,EFT,Monthly,22,3.99,63.834584626997454,Free State,Yes,1
+333,43,Female,Single,Life,7,18150.74,2,9578.08,Medium Value,51849.22,High School,3,7.628590021035503,Credit Card,Yearly,144,5.4,68.7014826245281,Gauteng,Yes,1
+334,59,Male,Single,Life,12,17717.28,3,3175.45,Low Value,27485.3,High School,4,6.166885956996134,Credit Card,Monthly,306,3.65,39.81876984344278,KZN,Yes,1
+335,28,Male,Divorced,Travel,3,17765.75,0,0.0,Medium Value,71777.0,High School,1,5.88704747692483,EFT,Monthly,305,0.0,37.276135869449206,KZN,No,1
+336,61,Female,Divorced,Auto,11,10994.67,1,723.48,Medium Value,77257.59,Master,4,4.0891646173769285,Credit Card,Yearly,247,3.3,47.51458928554633,Eastern Cape,Yes,1
+337,35,Male,Widowed,Home,19,12558.63,0,0.0,Medium Value,89499.9,PhD,1,3.0300137483659695,Debit Order,Quarterly,225,5.6,38.36910687212685,Western Cape,Yes,1
+338,24,Female,Married,Travel,7,5613.88,1,952.53,Low Value,55009.94,PhD,4,5.647396884029799,Credit Card,Yearly,245,1.15,59.75924211666377,Eastern Cape,Yes,0
+339,70,Male,Divorced,Health,9,15930.07,1,2827.44,High Value,165908.89,Bachelor,1,4.6976925268942615,Cash,Yearly,278,1.48,68.78932656880562,Gauteng,Yes,1
+340,74,Male,Married,Home,7,12343.18,0,0.0,Low Value,37260.07,Bachelor,2,4.127516459766366,Credit Card,Yearly,89,2.14,40.551373398241445,KZN,No,1
+341,61,Male,Single,Travel,17,21850.22,0,0.0,High Value,125506.83,High School,3,7.441617015776183,Cash,Quarterly,187,6.97,73.06471214310017,KZN,Yes,1
+342,69,Female,Single,Home,12,17057.24,0,0.0,High Value,180743.62,High School,3,6.42824340761305,EFT,Yearly,354,7.26,71.36082782864408,Western Cape,No,1
+343,28,Male,Widowed,Life,11,12770.28,0,0.0,Low Value,41697.11,High School,2,4.20632355851071,Credit Card,Monthly,122,6.41,49.50491537161088,Gauteng,Yes,1
+344,70,Female,Divorced,Home,9,11509.0,0,0.0,High Value,162893.77,Master,3,7.159602968117466,Cash,Quarterly,311,9.3,60.10702766535674,KZN,Yes,0
+345,28,Male,Married,Home,9,24673.41,0,0.0,High Value,133885.42,Master,2,8.190981795278514,EFT,Quarterly,165,8.23,67.05447639375515,Free State,Yes,1
+346,71,Female,Married,Auto,3,6885.33,1,2024.66,Medium Value,89770.18,Master,0,2.3618722770300655,Credit Card,Yearly,60,6.37,69.9464887011026,Western Cape,Yes,1
+347,51,Female,Single,Travel,8,13511.79,0,0.0,Low Value,78566.05,Bachelor,3,3.4830740754002614,EFT,Monthly,0,2.09,33.17807923933461,Western Cape,Yes,1
+348,52,Female,Widowed,Life,13,9800.97,1,3190.14,Medium Value,105461.48,Bachelor,0,3.6382341909842024,Credit Card,Yearly,323,4.27,60.03431904215256,Eastern Cape,Yes,1
+349,48,Female,Single,Life,14,15770.24,1,4594.69,Medium Value,79364.47,PhD,0,5.762619224529569,EFT,Monthly,194,5.93,52.278259876278874,KZN,No,1
+350,66,Female,Widowed,Health,11,16217.65,1,4449.87,Low Value,43346.37,High School,3,7.524979789753901,Debit Order,Quarterly,15,0.0,41.68481748204719,Free State,Yes,0
+351,47,Male,Single,Health,12,13513.12,0,0.0,Medium Value,76304.25,PhD,0,4.031652097502526,Credit Card,Monthly,33,2.1,30.297743114175187,KZN,Yes,1
+352,27,Female,Married,Home,5,12491.36,0,0.0,Medium Value,99179.36,Bachelor,0,6.30725377597393,EFT,Yearly,264,3.95,40.86305767050054,Eastern Cape,No,1
+353,36,Female,Single,Travel,3,10153.61,1,4063.97,High Value,152320.45,High School,3,8.786489256734257,Cash,Yearly,70,9.23,96.45950281315564,Eastern Cape,No,0
+354,40,Female,Divorced,Auto,19,7171.76,1,4814.92,Low Value,15297.04,Master,4,6.20918468940501,Credit Card,Quarterly,18,5.33,30.605270857254894,Western Cape,Yes,1
+355,62,Male,Widowed,Auto,5,24117.46,1,2062.36,Medium Value,76431.49,Bachelor,4,5.090982952661504,Cash,Quarterly,16,6.68,60.46388126673749,KZN,Yes,0
+356,22,Female,Single,Home,6,12844.27,2,8943.54,Low Value,38854.16,High School,4,4.7049608707638875,EFT,Quarterly,145,5.8,30.305270563459842,KZN,Yes,1
+357,28,Male,Single,Travel,2,14688.15,2,7349.41,Low Value,37335.05,High School,4,1.5658761031159023,EFT,Monthly,314,5.1,32.881015470943325,Free State,Yes,1
+358,49,Female,Single,Health,17,12651.98,2,5050.99,High Value,133376.29,PhD,3,10.0,Debit Order,Yearly,37,11.61,56.43607914317349,Western Cape,No,1
+359,68,Female,Married,Travel,2,19014.02,2,9001.11,Low Value,83447.78,PhD,3,4.285785615502163,EFT,Monthly,87,4.27,46.18945934598813,Free State,Yes,0
+360,61,Male,Divorced,Life,17,11987.99,0,0.0,Medium Value,81832.11,PhD,3,8.033484576243556,Debit Order,Quarterly,121,3.66,80.24374858570499,Free State,Yes,0
+361,72,Female,Divorced,Health,6,12711.83,2,8574.6,Low Value,42785.33,Master,1,1.558778015007316,Debit Order,Yearly,2,2.76,58.09912232295873,Western Cape,Yes,1
+362,56,Female,Single,Life,16,7364.16,0,0.0,Medium Value,80067.49,High School,4,4.514742424399687,Credit Card,Monthly,23,0.7,28.423332179058146,KZN,Yes,1
+363,52,Male,Single,Health,11,10716.75,1,3400.18,Low Value,37868.33,PhD,0,5.308987331190503,EFT,Monthly,248,3.99,29.507728312587897,KZN,Yes,1
+364,39,Male,Single,Life,14,18542.8,0,0.0,High Value,152413.27,Master,4,5.154814666344944,EFT,Yearly,119,3.19,66.13556415272556,Free State,Yes,1
+365,52,Female,Single,Auto,2,15652.58,1,2960.97,Medium Value,54372.22,High School,2,1.068142011706044,Credit Card,Quarterly,296,4.75,65.17726724709661,Eastern Cape,Yes,1
+366,29,Female,Widowed,Health,6,10751.29,0,0.0,Low Value,53891.02,PhD,1,2.00437308691914,Debit Order,Monthly,213,2.1,70.34384933329102,Gauteng,Yes,1
+367,66,Female,Single,Home,19,19039.78,0,0.0,Low Value,30738.16,PhD,4,1.5155566147294497,Debit Order,Quarterly,137,3.36,32.94545286094057,Free State,No,1
+368,33,Male,Married,Life,5,6876.09,0,0.0,Medium Value,65457.45,High School,3,4.838588695565745,Credit Card,Yearly,180,6.14,51.26539308103227,Gauteng,Yes,1
+369,62,Male,Single,Life,6,12968.79,1,3246.69,High Value,140747.54,Master,1,10.0,EFT,Yearly,63,10.8,92.59495796646783,Free State,Yes,0
+370,20,Male,Single,Health,19,8212.41,2,3007.09,Medium Value,84088.54,PhD,2,3.7701929424567964,Debit Order,Yearly,192,13.89,76.13486203238847,Western Cape,Yes,0
+371,60,Male,Widowed,Travel,5,8182.29,0,0.0,Medium Value,86290.05,High School,1,4.791402977244546,Credit Card,Quarterly,187,3.1,49.58521784341755,Eastern Cape,No,1
+372,65,Male,Married,Health,16,7350.84,4,7524.76,Low Value,59307.52,Bachelor,0,2.5796859515386252,EFT,Quarterly,143,8.0,43.968768040436665,KZN,No,1
+373,72,Male,Single,Travel,10,16133.42,1,2395.85,High Value,141576.63,PhD,2,5.530853226854854,Credit Card,Monthly,198,3.94,76.81247952963253,KZN,Yes,1
+374,32,Female,Single,Auto,9,20894.74,1,1347.04,Low Value,41860.68,High School,4,3.7482309381970307,Credit Card,Monthly,335,2.04,40.96558856308346,Western Cape,Yes,1
+375,74,Male,Single,Travel,8,14688.23,0,0.0,Medium Value,87363.73,Master,4,2.8852042845122052,EFT,Yearly,163,6.89,74.76347163692922,Gauteng,Yes,0
+376,44,Female,Single,Life,0,9511.78,0,0.0,Low Value,54726.71,Master,1,1.7081523071079667,Cash,Monthly,325,8.2,48.30549887885272,Western Cape,Yes,1
+377,41,Female,Married,Home,15,12620.72,1,4050.17,Medium Value,78960.47,Bachelor,3,4.95395508312918,EFT,Quarterly,23,3.1,66.31049446527719,Gauteng,Yes,0
+378,33,Male,Single,Health,16,12110.4,0,0.0,Medium Value,95380.8,PhD,1,4.080171345728653,EFT,Quarterly,114,0.0,55.62718033623756,KZN,No,1
+379,65,Male,Single,Home,14,17443.97,0,0.0,Medium Value,61014.31,PhD,3,1.0,Credit Card,Yearly,34,10.41,51.39990241176082,Gauteng,Yes,1
+380,36,Female,Married,Life,0,13617.55,0,0.0,Medium Value,90840.81,Bachelor,3,5.993230765934713,Debit Order,Quarterly,163,4.54,56.38418624524998,Gauteng,Yes,1
+381,35,Male,Widowed,Health,1,20900.64,1,675.53,Medium Value,97164.4,Bachelor,3,7.43539628838283,Credit Card,Quarterly,48,5.76,67.51247386506317,Eastern Cape,Yes,0
+382,52,Male,Widowed,Home,6,10607.63,0,0.0,Low Value,47572.99,Bachelor,1,4.218483173870959,Cash,Quarterly,143,3.16,0.0,Gauteng,Yes,1
+383,22,Male,Single,Home,16,14424.32,2,6617.02,Medium Value,66324.85,Bachelor,1,5.821100170655233,Debit Order,Monthly,113,4.31,45.61535634698328,Gauteng,No,1
+384,46,Female,Divorced,Home,3,19364.59,1,4203.52,Low Value,23947.13,Master,1,8.438081225683643,Credit Card,Quarterly,319,5.3,31.549155025584923,Western Cape,No,1
+385,65,Male,Widowed,Travel,5,14235.58,1,877.83,Medium Value,68753.35,Master,4,3.807177184062241,EFT,Yearly,203,4.1,50.24549985005319,Gauteng,Yes,1
+386,19,Female,Married,Health,2,18092.18,1,1249.42,High Value,141504.08,PhD,4,8.663233572360808,EFT,Monthly,245,12.18,82.05007806744324,Gauteng,Yes,0
+387,59,Male,Single,Home,11,15835.54,0,0.0,Medium Value,80575.91,Master,2,4.9837735967765,Debit Order,Monthly,125,5.47,54.09670690126291,Free State,Yes,0
+388,29,Female,Married,Travel,16,19549.98,1,4595.97,Low Value,35475.97,High School,3,5.162285037910822,Debit Order,Quarterly,277,3.83,14.102184822048542,KZN,Yes,1
+389,47,Female,Single,Health,7,18070.65,1,585.95,Medium Value,66962.09,High School,2,5.111727879688994,Debit Order,Quarterly,189,4.07,38.73233892434715,Free State,No,1
+390,50,Female,Widowed,Travel,18,15593.67,1,4920.15,Low Value,32646.68,PhD,1,2.8701334216837235,Debit Order,Monthly,219,5.39,29.235769056400343,Gauteng,Yes,1
+391,45,Female,Single,Auto,0,11733.52,1,4602.78,Medium Value,80903.87,High School,0,1.0,Credit Card,Monthly,133,0.0,56.61515428931622,Free State,No,1
+392,25,Female,Divorced,Auto,9,21945.12,0,0.0,Low Value,37897.03,PhD,1,7.527522323803563,Debit Order,Quarterly,139,7.11,72.32393016074712,Gauteng,Yes,1
+393,67,Female,Widowed,Travel,12,8399.05,0,0.0,Medium Value,77431.42,Bachelor,0,5.395298605799014,EFT,Quarterly,33,6.2,55.57811323841206,Free State,Yes,0
+394,72,Female,Divorced,Health,15,10316.53,2,3757.98,High Value,157023.65,Bachelor,3,6.95964669659746,Cash,Yearly,62,7.37,77.12855046151175,Gauteng,Yes,1
+395,33,Female,Divorced,Travel,15,15898.14,4,5722.36,High Value,127406.38,PhD,1,7.620692549689155,Cash,Yearly,242,8.18,94.26959366449225,Gauteng,Yes,1
+396,31,Female,Married,Home,15,17634.49,0,0.0,Low Value,59280.78,Master,0,3.74883872462392,EFT,Monthly,320,6.73,38.07010830471916,Gauteng,Yes,1
+397,53,Female,Single,Life,12,21049.75,0,0.0,High Value,166534.34,Master,1,8.132613077467173,EFT,Yearly,157,8.33,84.10785920598688,Western Cape,Yes,0
+398,56,Male,Widowed,Auto,13,8561.84,0,0.0,Low Value,50842.4,High School,4,5.223598316406776,Debit Order,Yearly,20,6.14,38.01006375584021,Eastern Cape,No,1
+399,55,Female,Married,Auto,19,15174.33,2,6834.31,Low Value,69952.75,High School,4,5.983746424883971,Debit Order,Monthly,312,1.07,40.331541247747836,Free State,Yes,1
+400,30,Male,Married,Auto,14,17782.11,0,0.0,High Value,160012.83,High School,0,5.332995920564923,Credit Card,Monthly,199,16.18,83.80951941351415,Western Cape,No,1
+401,30,Male,Divorced,Life,12,15572.72,0,0.0,Low Value,42711.61,Bachelor,1,2.005484709642711,Cash,Yearly,14,8.84,49.916538036024534,Gauteng,Yes,1
+402,41,Male,Single,Life,17,8676.16,0,0.0,Medium Value,77000.26,Master,1,2.9416661785081337,Cash,Quarterly,28,3.79,63.98193989243591,Gauteng,Yes,0
+403,34,Female,Married,Health,10,15251.86,1,2718.42,Medium Value,89532.95,PhD,0,4.321739458144202,Debit Order,Yearly,188,8.5,65.97401658268988,Western Cape,No,1
+404,51,Female,Widowed,Life,19,16077.54,3,12008.78,Low Value,18511.05,PhD,2,4.478998821187335,Cash,Monthly,15,0.0,51.087707420523515,Eastern Cape,Yes,0
+405,53,Female,Married,Life,15,10697.58,1,1426.95,Medium Value,67835.37,PhD,4,4.869005838320548,Debit Order,Yearly,102,0.19,71.34732531474148,Free State,Yes,0
+406,32,Female,Single,Health,12,5429.7,1,4434.79,Low Value,25904.46,High School,4,7.315106383350624,Credit Card,Quarterly,105,5.43,13.893733131445117,Free State,Yes,1
+407,41,Male,Single,Home,12,22867.06,0,0.0,Low Value,48372.05,Master,4,7.0131914305554,EFT,Monthly,319,8.85,18.599861571694912,Gauteng,Yes,1
+408,28,Male,Married,Life,16,15672.06,2,2361.38,Low Value,60262.78,PhD,1,3.692641718725162,Credit Card,Quarterly,106,4.4,26.771550676852986,KZN,No,1
+409,43,Male,Divorced,Auto,18,4108.94,0,0.0,Medium Value,72058.0,PhD,1,4.848057841083372,Credit Card,Yearly,190,3.88,45.40888839552271,KZN,No,1
+410,28,Male,Married,Home,6,17570.98,0,0.0,High Value,148760.3,Master,3,10.0,EFT,Monthly,305,11.65,84.87032872452626,Eastern Cape,Yes,0
+411,74,Female,Married,Auto,18,24655.56,0,0.0,Low Value,52884.66,Bachelor,0,5.089215448868579,Cash,Yearly,213,8.77,12.324879903497528,Eastern Cape,No,1
+412,49,Male,Married,Life,6,18927.96,0,0.0,Low Value,36668.35,Master,4,4.250692064376705,Debit Order,Quarterly,279,5.16,54.574143448770805,Free State,Yes,1
+413,59,Female,Single,Travel,17,20178.68,3,14077.4,Low Value,30082.65,Master,1,4.216246469226268,Debit Order,Quarterly,174,1.95,22.405242228019098,Eastern Cape,No,1
+414,31,Male,Widowed,Travel,17,6326.68,1,2097.19,Medium Value,77340.6,High School,3,4.995196899502897,Debit Order,Yearly,222,5.98,58.79913377198865,Western Cape,Yes,1
+415,57,Male,Widowed,Travel,2,23022.54,0,0.0,Medium Value,64135.97,High School,0,6.174783399612025,EFT,Quarterly,303,9.24,61.812928185395975,Free State,No,1
+416,44,Female,Married,Life,7,10656.04,0,0.0,Low Value,43647.28,PhD,0,6.173121536213758,Cash,Yearly,239,5.01,58.449855526580244,Western Cape,No,1
+417,57,Female,Married,Health,11,8036.76,1,2972.35,Medium Value,99250.69,Master,4,7.797060549414327,Debit Order,Monthly,5,9.79,67.33390859458544,Eastern Cape,Yes,0
+418,60,Male,Married,Travel,19,12718.48,0,0.0,High Value,157191.63,Master,1,6.860493141542404,Debit Order,Quarterly,136,9.04,64.55282227187233,KZN,No,1
+419,37,Female,Married,Home,17,13367.05,0,0.0,Low Value,52466.8,Master,2,2.8736532885212998,Credit Card,Yearly,135,6.24,8.915609707413417,Western Cape,Yes,1
+420,61,Male,Widowed,Health,16,10240.4,2,3848.09,Low Value,44097.24,Bachelor,1,2.3055810398629486,Cash,Quarterly,340,5.75,31.577754628509645,Eastern Cape,No,1
+421,37,Male,Divorced,Health,14,14425.99,1,669.05,Medium Value,88501.58,Master,3,1.738885595505392,EFT,Yearly,311,5.17,53.643604769659454,Gauteng,Yes,1
+422,73,Female,Divorced,Home,2,12732.93,2,4759.38,Low Value,63974.83,Bachelor,2,6.467095627011732,Credit Card,Yearly,102,3.33,40.327986132733336,Eastern Cape,Yes,0
+423,65,Male,Married,Health,7,9926.82,3,4968.34,High Value,140123.35,High School,0,7.982132086890713,Debit Order,Yearly,200,12.97,86.436753937415,Eastern Cape,Yes,0
+424,72,Female,Widowed,Home,12,8802.22,4,2501.14,Low Value,72776.42,PhD,2,3.6265693139934094,Cash,Quarterly,61,2.38,54.440203523294485,Free State,Yes,1
+425,34,Male,Widowed,Travel,19,19140.29,1,2741.85,Low Value,56066.21,Bachelor,3,5.858356239749997,Credit Card,Quarterly,122,7.49,45.64266326925602,Western Cape,No,1
+426,73,Male,Married,Auto,7,21708.75,0,0.0,High Value,147922.32,PhD,3,6.152219915355295,Debit Order,Yearly,78,8.99,59.88402930047647,KZN,Yes,0
+427,35,Female,Divorced,Travel,14,16532.19,1,1680.23,Medium Value,80048.15,High School,4,6.219052090417202,Cash,Quarterly,85,0.33,46.54541543851323,Eastern Cape,Yes,1
+428,23,Female,Single,Auto,19,19247.93,1,1067.62,Medium Value,94344.43,Master,2,9.649346611705635,Credit Card,Yearly,103,0.0,51.64498357734016,KZN,Yes,1
+429,66,Female,Single,Travel,13,11801.37,1,3583.41,High Value,152206.55,High School,3,10.0,Cash,Quarterly,44,9.63,68.49703942993172,Eastern Cape,No,0
+430,40,Female,Widowed,Auto,9,15340.36,1,2961.78,Medium Value,89850.41,High School,3,7.731730670371979,EFT,Quarterly,212,7.39,80.94512239741391,Eastern Cape,Yes,1
+431,64,Female,Married,Health,5,13361.81,2,3492.59,Low Value,31771.07,Master,0,2.8730732657553206,EFT,Quarterly,115,0.0,36.13569271733509,Gauteng,Yes,1
+432,47,Female,Widowed,Travel,6,14651.83,0,0.0,Low Value,42243.97,PhD,2,5.195654349415845,Cash,Monthly,228,6.18,46.80378285263828,Gauteng,Yes,1
+433,30,Male,Widowed,Auto,1,15925.63,2,9638.05,Medium Value,58240.68,Master,4,4.150201821594386,Cash,Quarterly,76,8.17,54.002655889707334,Free State,Yes,1
+434,43,Male,Single,Home,6,17679.25,3,11146.59,Medium Value,80857.83,Master,4,5.912939502857416,EFT,Yearly,91,6.22,60.24257698418619,Free State,Yes,0
+435,23,Male,Divorced,Health,17,19292.43,0,0.0,Low Value,52534.12,PhD,2,6.589200765890423,Cash,Yearly,92,7.92,49.43152868636068,Western Cape,Yes,1
+436,19,Female,Widowed,Home,4,13213.14,0,0.0,Low Value,20747.57,High School,1,7.520945924706118,Debit Order,Yearly,166,6.38,43.397580281729326,Free State,Yes,1
+437,41,Female,Widowed,Travel,2,13155.3,1,2618.15,Low Value,43207.13,PhD,1,3.5218147686430576,Debit Order,Quarterly,333,1.14,26.646183699270196,KZN,No,1
+438,65,Male,Married,Home,13,7387.93,0,0.0,High Value,178499.09,High School,3,2.9786121808358654,EFT,Yearly,202,2.23,100.0,KZN,Yes,0
+439,53,Female,Divorced,Auto,11,18800.11,1,663.53,Low Value,34087.66,High School,0,3.972198746702314,Credit Card,Quarterly,345,1.4,30.50276494064125,Eastern Cape,Yes,1
+440,52,Male,Divorced,Health,9,10126.32,2,1640.0,Low Value,33861.14,High School,3,8.217732558488066,Credit Card,Monthly,51,7.27,41.30146308368481,Gauteng,No,1
+441,26,Male,Divorced,Auto,8,23470.49,0,0.0,Medium Value,66710.4,High School,2,6.754701013479394,EFT,Yearly,137,4.41,39.765723985413615,Free State,Yes,1
+442,19,Male,Single,Travel,7,13457.65,1,1174.0,Low Value,46528.57,Bachelor,0,8.344093764008683,Credit Card,Quarterly,212,6.38,44.332974205295294,Eastern Cape,No,1
+443,39,Male,Divorced,Home,19,20460.53,0,0.0,Low Value,31781.42,PhD,4,6.036985691928248,Credit Card,Yearly,25,12.22,45.27649206721489,Western Cape,Yes,1
+444,34,Female,Widowed,Travel,6,17619.04,0,0.0,Low Value,48567.37,Master,3,6.126903864790998,EFT,Yearly,41,5.83,60.36010700119262,Gauteng,No,1
+445,73,Male,Divorced,Auto,9,17991.65,1,1862.45,Medium Value,54126.25,High School,0,3.7022540012646306,EFT,Quarterly,355,7.5,49.69827849222658,KZN,Yes,1
+446,35,Male,Married,Health,11,9175.57,0,0.0,Low Value,24822.95,Master,4,6.620994998300534,Cash,Monthly,271,4.18,58.505864175042895,KZN,Yes,1
+447,25,Female,Divorced,Travel,0,14583.92,0,0.0,Medium Value,97243.86,High School,3,7.498000415645006,Cash,Quarterly,252,7.95,76.26297366065315,Eastern Cape,Yes,0
+448,38,Female,Divorced,Health,8,16051.52,0,0.0,Medium Value,87133.83,PhD,0,1.5062086173088902,Cash,Yearly,214,8.68,57.24885019061936,Gauteng,Yes,1
+449,66,Female,Married,Home,0,13514.71,0,0.0,High Value,145486.92,Master,3,7.870156676371719,Cash,Quarterly,153,9.08,81.47461562582436,Western Cape,No,1
+450,29,Male,Married,Auto,15,5777.12,1,567.6,Low Value,24171.65,Bachelor,0,5.514276931616191,Debit Order,Yearly,294,11.49,57.16825518616572,Gauteng,Yes,1
+451,40,Female,Married,Auto,8,5008.8,0,0.0,Low Value,61478.86,PhD,4,1.3859172101363675,EFT,Yearly,222,4.18,67.86892841391526,Free State,Yes,1
+452,48,Female,Single,Health,16,20798.07,1,2001.67,Low Value,23556.7,Master,3,4.864257236601036,EFT,Monthly,355,4.53,67.80116196849742,Gauteng,Yes,0
+453,47,Male,Divorced,Auto,5,9666.59,1,4338.25,Low Value,40749.79,PhD,3,4.20003594434218,Cash,Monthly,138,1.91,20.039423030036108,Free State,Yes,1
+454,43,Female,Single,Health,14,4110.16,3,5914.59,Medium Value,86847.54,High School,1,4.4988792627626175,Debit Order,Quarterly,55,5.19,47.81302224476932,KZN,Yes,1
+455,19,Male,Married,Home,1,17671.82,1,3290.01,Low Value,41366.4,PhD,2,2.331678481990018,EFT,Monthly,95,4.15,68.28215081899435,Western Cape,Yes,1
+456,27,Female,Divorced,Life,3,14336.53,3,6335.96,Low Value,-6067.26,PhD,2,6.555944726933287,Debit Order,Monthly,284,4.47,49.838382066813736,Western Cape,Yes,0
+457,57,Female,Single,Life,9,15686.63,1,4364.79,Medium Value,101133.82,High School,2,6.3758659441028565,Debit Order,Monthly,8,3.16,20.93479597177943,Free State,No,1
+458,52,Female,Married,Life,14,12372.71,1,3525.47,Medium Value,77359.29,Master,3,5.3931135553991645,Debit Order,Monthly,339,5.41,75.5034593259778,Eastern Cape,Yes,1
+459,26,Female,Widowed,Life,12,18447.9,1,1215.16,Low Value,46345.07,High School,0,1.0415882815186737,Cash,Yearly,244,4.19,60.614606034561056,KZN,Yes,1
+460,31,Male,Single,Health,15,11866.78,0,0.0,Medium Value,74399.47,Bachelor,2,3.9996043658080085,Debit Order,Yearly,302,0.0,40.64215909063064,Gauteng,Yes,1
+461,33,Female,Divorced,Home,13,24799.19,2,4597.48,High Value,156759.2,PhD,1,5.577075611832591,Debit Order,Monthly,205,8.85,65.92868721862358,Gauteng,Yes,1
+462,63,Female,Widowed,Travel,11,13963.29,1,4225.66,Medium Value,91030.12,Bachelor,0,5.123816208059994,Credit Card,Quarterly,353,8.16,58.852295960863884,Free State,Yes,1
+463,71,Male,Married,Auto,15,16723.35,0,0.0,Low Value,46066.77,Master,3,8.59850209137239,EFT,Quarterly,66,7.58,53.15623106864177,Free State,Yes,0
+464,28,Male,Married,Home,16,17812.42,1,2242.32,Low Value,22819.46,Bachelor,0,6.603521128709954,Cash,Yearly,121,6.09,22.928563933870027,KZN,No,1
+465,33,Male,Married,Life,8,13819.04,1,4364.38,Medium Value,85137.48,Master,4,5.353892369787531,EFT,Monthly,195,4.03,44.165407653021056,Free State,Yes,1
+466,37,Male,Widowed,Travel,8,13231.57,2,9971.27,Low Value,33777.63,Master,4,6.287010348104223,Debit Order,Monthly,280,3.85,40.06870209018226,Eastern Cape,No,1
+467,52,Male,Single,Home,19,18197.53,0,0.0,High Value,159258.61,Bachelor,0,6.941567188292029,Credit Card,Yearly,117,12.33,94.92295882725175,Gauteng,Yes,0
+468,43,Male,Divorced,Auto,15,14532.52,0,0.0,Medium Value,68255.16,High School,2,9.194820136898969,Credit Card,Yearly,71,1.35,59.87122197210592,KZN,Yes,1
+469,45,Female,Married,Life,3,14126.66,0,0.0,Medium Value,80379.36,PhD,1,7.372290948084598,Cash,Monthly,14,9.62,84.43957324356471,Eastern Cape,Yes,1
+470,27,Male,Widowed,Travel,4,14426.77,1,1564.85,High Value,151700.92,Bachelor,3,7.917988003348582,EFT,Monthly,334,11.46,75.12051613514654,Eastern Cape,Yes,0
+471,72,Male,Single,Auto,2,8645.24,3,10849.73,Medium Value,74321.3,PhD,4,5.189015306094782,EFT,Monthly,217,1.86,48.35195483187944,Eastern Cape,Yes,1
+472,60,Male,Divorced,Travel,17,14837.25,0,0.0,Medium Value,79247.46,PhD,1,2.4998529640581504,Credit Card,Yearly,234,5.98,74.28717235429208,Free State,Yes,1
+473,20,Male,Divorced,Travel,2,16757.03,0,0.0,Medium Value,72948.93,PhD,4,4.552055327112889,Cash,Monthly,82,3.53,55.207648941409964,Eastern Cape,No,1
+474,32,Female,Married,Health,5,17714.37,0,0.0,Medium Value,106589.1,PhD,2,2.5563858136730713,EFT,Quarterly,72,9.69,80.96171940655412,Free State,Yes,0
+475,41,Female,Married,Health,12,12431.72,1,954.26,High Value,165930.03,High School,1,7.014725362847134,Cash,Monthly,272,5.56,77.66948398714516,Western Cape,Yes,1
+476,19,Male,Divorced,Health,16,5079.78,0,0.0,Low Value,51947.72,Bachelor,2,6.592267329847523,Debit Order,Yearly,195,6.08,32.52049156317323,Eastern Cape,No,1
+477,73,Male,Divorced,Life,14,15282.9,0,0.0,Low Value,23187.82,Master,2,7.5102915767498075,EFT,Monthly,22,3.51,41.02557348951488,KZN,Yes,1
+478,28,Female,Single,Travel,4,6267.67,4,4368.18,Low Value,38425.48,PhD,0,6.22558148316658,EFT,Quarterly,348,2.66,54.38727514823533,Western Cape,No,1
+479,74,Female,Widowed,Home,2,10660.83,3,9598.46,Medium Value,87602.05,Master,4,5.257257381308854,Credit Card,Monthly,206,3.96,65.91869978226329,Western Cape,No,1
+480,67,Male,Divorced,Home,13,12871.22,1,2985.52,Low Value,15643.92,High School,0,4.260179061085705,Debit Order,Quarterly,117,0.0,26.466056684736273,Free State,No,1
+481,44,Male,Married,Health,17,5060.12,1,1054.78,Low Value,11450.19,Bachelor,1,7.045682943101529,Credit Card,Monthly,59,4.43,33.841568876161915,Gauteng,Yes,0
+482,54,Male,Widowed,Home,8,15726.22,1,1775.78,High Value,157352.72,Bachelor,0,8.509798333099766,Debit Order,Monthly,280,13.28,100.0,Eastern Cape,No,1
+483,60,Male,Single,Auto,17,10486.56,1,4494.88,Low Value,45087.66,PhD,3,6.739743235242463,EFT,Yearly,49,2.03,40.441458875163285,Eastern Cape,Yes,1
+484,55,Male,Married,Health,15,17583.22,1,4770.12,Low Value,16628.91,Master,4,10.0,Credit Card,Monthly,270,7.09,27.458624946705605,Gauteng,Yes,1
+485,49,Female,Divorced,Travel,8,15147.18,1,2411.73,Low Value,22626.78,Master,2,1.748911932875878,Debit Order,Quarterly,42,0.0,44.531152731574025,KZN,Yes,1
+486,33,Male,Married,Life,15,22389.97,1,3554.55,Low Value,54820.33,PhD,3,7.078957628250693,Debit Order,Quarterly,355,1.29,33.324254595504826,Gauteng,No,1
+487,26,Female,Single,Travel,12,10137.09,1,1841.26,Medium Value,80542.76,Master,4,1.0,Credit Card,Monthly,274,7.05,77.18856867677701,KZN,Yes,1
+488,40,Female,Single,Auto,1,20715.74,1,926.33,High Value,141046.58,High School,4,3.6510610790935094,EFT,Yearly,175,10.48,100.0,KZN,Yes,1
+489,36,Male,Divorced,Health,16,16568.2,0,0.0,Medium Value,89990.52,High School,4,5.811606767071502,Debit Order,Yearly,258,12.86,38.15118040110954,Free State,Yes,1
+490,38,Male,Single,Auto,18,24329.22,1,1871.42,Low Value,43647.02,High School,4,4.059593322429377,Cash,Monthly,67,0.86,13.026778908863388,Free State,Yes,1
+491,34,Female,Widowed,Health,11,20411.77,1,2570.46,Low Value,21123.78,Bachelor,2,3.685730075443884,Debit Order,Yearly,99,2.91,45.02341662628439,KZN,Yes,1
+492,44,Male,Single,Travel,0,10520.02,0,0.0,Medium Value,91759.51,Master,2,2.4637126967370033,Debit Order,Monthly,222,0.0,80.88683912224602,Western Cape,Yes,1
+493,58,Male,Married,Home,14,14616.51,3,13669.53,Medium Value,82952.65,Master,0,5.67817832160957,EFT,Monthly,160,6.02,60.563127622302325,KZN,Yes,1
+494,27,Male,Widowed,Home,9,20459.03,1,927.92,Low Value,34111.57,Master,4,5.422561448883105,Credit Card,Quarterly,224,5.53,43.17440644050027,Eastern Cape,No,1
+495,24,Female,Single,Life,12,18989.25,1,826.59,High Value,121898.38,Bachelor,3,6.770483196203269,EFT,Yearly,131,11.64,82.44599515828367,KZN,No,1
+496,71,Male,Married,Life,0,9687.46,3,3023.58,Medium Value,71500.52,PhD,3,6.691679248486784,Cash,Yearly,320,5.31,25.28933900999842,Eastern Cape,Yes,1
+497,31,Female,Married,Auto,2,10211.84,1,1725.08,Low Value,54201.5,Master,0,5.002219889374587,Credit Card,Quarterly,84,0.37,30.983101709967297,KZN,Yes,1
+498,42,Female,Widowed,Health,0,20829.58,0,0.0,High Value,139251.4,Bachelor,3,8.619188871943772,Cash,Quarterly,86,9.63,89.03870401967511,Western Cape,Yes,0
+499,48,Female,Divorced,Home,4,8299.72,1,4147.72,Medium Value,76746.28,PhD,2,2.106197418383287,Credit Card,Quarterly,30,8.78,74.63570066503875,Eastern Cape,No,1
+500,55,Female,Divorced,Life,1,15003.78,0,0.0,Low Value,44394.28,Bachelor,4,2.5968236237189646,EFT,Yearly,335,9.14,51.52047280192585,Gauteng,Yes,1
